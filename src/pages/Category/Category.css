@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-fluit {
+  padding: 0 60px;
+}
+@media screen and (max-width: 1920px) {
+  .container-fluit {
+    padding: 0 60px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container-fluit {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .container-fluit {
+    padding: 0 30px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .container-fluit {
+    padding: 0 20px;
+  }
+}

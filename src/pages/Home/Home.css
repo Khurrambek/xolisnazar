@@ -1,0 +1,2179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .kundalik-left-bottom-all .kundalik-left-bottom-1 {
+  padding-top: 50px;
+} */
+/* ::-webkit-scrollbar {
+  width: 30px;
+  height: 90%;
+} */
+
+/* ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+} */
+
+/* ::-webkit-scrollbar-thumb {
+  background: #949494;
+  height: 5px;
+} */
+
+.home-container {
+  padding: 0 60px;
+  padding-top: 20px;
+}
+
+.home-catalog-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.home-catalog {
+  width: 1800px;
+  display: flex;
+  overflow-x: scroll;
+  justify-content: center;
+}
+
+.home-catalog ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+  max-width: 1100px;
+  width: 1100px;
+}
+
+.home-catalog-li-last a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "raleway", serif;
+  font-weight: 700;
+  font-size: 20px;
+  transition: all ease 0.2s;
+}
+
+.home-catalog-li-last a:hover {
+  color: #00d798;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all ease 0.2s;
+}
+
+/*-------------- Kundalik Home ----------------*/
+.home-kundalik {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-kundalik-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.home-kundalik-icons {
+  display: flex;
+  width: 1800px;
+  padding: 40px 0;
+}
+
+.kundalik-left-top-wrapper:hover {
+  color: #000;
+}
+
+.home-instagramIcon,
+.home-youTubeIcon,
+.home-telegramIcon,
+.home-facebookIcon,
+.home-linkedInIcon,
+.home-twitterIcon,
+.home-shareIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50%;
+  font-size: 25px;
+  margin-right: 20px;
+}
+.home-shareIcon {
+  transform: rotate(-20deg);
+}
+.home-linkedInIcon:hover {
+  background: #0072b1;
+}
+.home-twitterIcon:hover {
+  background: #1da1f2;
+}
+.home-instagramIcon:hover {
+  background: #ce0496;
+}
+.home-youTubeIcon:hover {
+  background: #d90000;
+}
+.home-telegramIcon:hover {
+  background: #00d1ee;
+}
+.home-facebookIcon:hover {
+  background: #005bae;
+}
+.home-shareIcon:hover {
+  background: #7553f0;
+}
+
+.kundalik-container {
+  width: 1800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.kundalik-left {
+  width: 60%;
+  /* height: auto; */
+  height: 100%;
+}
+
+.kundalik-left-top {
+  padding-right: 45px;
+  border-right: 1px solid #c4c4c4;
+  height: 60%;
+}
+
+.kundalik-left-bottom {
+  height: calc(40% - 62px);
+}
+
+.home-kun-line {
+  margin: 45px 45px 16px 0;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.kundalik-left-top p {
+  font-family: "Raleway", serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18.33px;
+  padding-bottom: 8px;
+}
+
+.kundalik-left-top img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0 !important;
+}
+
+.kundalik-left-top-body {
+  padding: 10px 0;
+  display: flex;
+  padding-bottom: 0;
+}
+
+.kundalik-left-top-body h2 {
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 52.36px;
+  width: 52%;
+  padding-right: 21px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+
+.kundalik-left-top-body-info {
+  width: 48%;
+  word-wrap: break-word;
+}
+
+.kundalik-left-top-body-info p {
+  font-family: "Raleway", serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18.33px;
+  color: #777777;
+  text-decoration: none;
+  padding-bottom: 7px;
+  word-wrap: break-word;
+}
+
+.kundalik-left-top-body-info h3 {
+  font-family: "Irvin";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31.42px;
+  word-wrap: break-word;
+}
+
+.kundalik-left-bottom-heading {
+  padding-bottom: 0px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 23.56px;
+  word-wrap: break-word;
+}
+
+.kundalik-left-bottom-body {
+  display: flex;
+  height: calc(100% - 76px);
+  padding-top: 25px;
+}
+
+.kundalik-left-bottom-body-1 {
+  display: flex;
+}
+
+.kundalik-left-bottom-all {
+  border-right: 1px solid #c4c4c4;
+  width: 50%;
+  padding: 0 30px 0 30px;
+}
+
+.kundalik-left-bottom-all p {
+  font-family: "Raleway", serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18.33px;
+  padding-bottom: 8px;
+}
+
+.kundalik-left-bottom-all h4 {
+  padding-top: 10px;
+  font-family: "Irvin";
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 26.18px;
+  word-wrap: break-word;
+}
+.kundalik-left-bottom-all-imgDiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+.kundalik-left-bottom-all-imgDiv {
+  width: 100%;
+  height: 150px;
+}
+
+.kundalik-right,
+.kundalik-mid {
+  width: 20%;
+}
+
+.kundalik-mid {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #c4c4c4;
+  /* justify-content: space-between; */
+  padding: 0 35px;
+}
+
+.kundalik-right-950px {
+  display: none;
+}
+
+.kundalik-right {
+  margin-left: 45px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.kundalik-right img {
+  /* height: calc(100% - 207px); */
+  height: 1200px;
+  width: 100%;
+}
+
+.home-kundalik-see-all-btn {
+  width: 100%;
+  height: 56px;
+  background: #60009b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  margin-top: 30px;
+}
+.home-portret,
+.home-aksiya {
+  display: flex;
+  justify-content: center;
+}
+
+.home-aksiya-wrapper {
+  width: 1800px;
+}
+
+.home-kundalik-see-all-btn h5,
+.home-dunyo-btn h5,
+.home-fikr-btn h5,
+.home-tahlil-btn h5,
+.home-portret-btn h5,
+.home-aksiya-btn h5 {
+  color: #fff;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  line-height: 31.42px;
+  margin: 0 !important;
+}
+
+.home-kundalik-see-all-btn a,
+.home-dunyo-btn a,
+.home-fikr-btn a,
+.home-tahlil-btn a,
+.home-portret-btn a,
+.home-aksiya-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+.home-kundalik-see-all-btn a:hover,
+.home-dunyo-btn a:hover,
+.home-fikr-btn a:hover,
+.home-tahlil-btn a:hover,
+.home-portret-btn a:hover,
+.home-aksiya-btn a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.kundalik-left-top-wrapper {
+  text-decoration: none;
+  color: #000;
+}
+
+.home-kundalik-see-all-btn p,
+.home-dunyo-btn p,
+.home-fikr-btn p,
+.home-tahlil-btn p,
+.home-portret-btn p,
+.home-aksiya-btn p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  line-height: 26.18px;
+  cursor: pointer;
+  margin: 0 !important;
+}
+
+.kundalik-left-top-wrapper:hover
+  .kundalik-left-top-body
+  .kundalik-left-top-body-info
+  p {
+  text-decoration: underline;
+}
+.kundalik-left-top-wrapper:hover .kundalik-left-top-body h2 {
+  text-decoration: underline;
+  color: #05af7e;
+}
+.kundalik-left-top-wrapper:hover .kundalik-left-top-img-wrapper::before {
+  content: "";
+  background: rgb(0, 0, 0);
+  opacity: 0.4;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  right: 0;
+  bottom: 0px;
+  left: 0;
+  position: absolute;
+}
+
+.kundalik-left-top-img-wrapper {
+  position: relative;
+}
+
+/*------------------- Dunyo Sec styling -------------------*/
+.home-dunyo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-dunyo-wrapper {
+  width: 1800px;
+}
+
+.home-dunyo-main {
+  display: flex;
+  margin-top: 20px;
+}
+.home-dunyo-same:nth-child(2) .dunyo-new-card-img-wrapper {
+  height: 260px;
+}
+.home-dunyo-same:nth-child(3) .dunyo-new-card-img-wrapper {
+  height: 380px;
+}
+
+.home-dunyo-same {
+  width: 25%;
+  padding: 0 45px;
+  border-right: 1px solid #c4c4c4;
+}
+.home-dunyo-1 {
+  padding-left: 0;
+}
+
+.home-dunyo-3 {
+  width: 50%;
+  padding-left: 45px;
+}
+
+.home-dunyo-btn {
+  background: #006d12;
+  width: 100%;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  margin-top: 30px;
+}
+
+/*--------------------- Home Shaxsiy Fikr sec style -----------------------*/
+.home-fikr {
+  width: 100%;
+  display: flex;
+  padding-top: 30px;
+  justify-content: center;
+}
+.home-fikr-wrapper {
+  width: 1800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-fikr-img {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  position: relative;
+  padding: 76px;
+  padding-top: 400px;
+}
+
+.home-fikr-img::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(34, 34, 34, 0.48);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.home-fikr-img a {
+  text-decoration: none;
+}
+.home-fikr-img-h2 {
+  font-size: 44px;
+  font-family: "Irvin";
+  font-weight: 700;
+  color: #fff;
+  position: relative;
+  width: 924px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.home-fikr-img-h2:hover {
+  transition: 0.2s ease;
+  text-decoration: underline;
+  color: #43c39e;
+}
+
+.home-fikr-img p {
+  padding: 15px 0 62px 0;
+  font-family: "Raleway", serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23.56px;
+  position: relative;
+  color: #fff;
+}
+
+.home-fikr-btn {
+  width: 100%;
+  height: 56px;
+  background: #7b4c06;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  margin-top: 30px;
+}
+
+/*------------------------ Home Tahlil sec -------------------------*/
+.home-tahlil {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.home-tahlil-wrapper {
+  width: 1800px;
+}
+
+.home-tahlil-body {
+  display: flex;
+}
+
+.home-tahlil-left {
+  width: 55%;
+  border-right: 1px solid #c4c4c4;
+  padding-right: 45px;
+}
+
+.home-tahlil-left img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.home-tahlil-left h3 {
+  padding: 16px 0;
+  font-family: "Irvin";
+  /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 32.98px;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.home-tahlil-left p {
+  padding-bottom: 20px;
+  font-size: 19px;
+  font-family: "Raleway", serif;
+  font-weight: 600;
+  line-height: 15.71px;
+  color: #777777;
+}
+
+.home-tahlil-left h6 {
+  font-size: 18px;
+  font-family: "Raleway", serif;
+  font-weight: 600;
+  line-height: 23.56px;
+  color: #222222;
+}
+
+.home-tahlil-right {
+  width: 45%;
+  padding-left: 45px;
+}
+
+.home-tahlil-btn {
+  width: 100%;
+  height: 56px;
+  background: #016d7b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  margin-top: 30px;
+}
+
+.home-tahlil-left-wrapper {
+  text-decoration: none;
+  color: #000;
+}
+
+.home-tahlil-left-wrapper:hover h3 {
+  color: #05af7e;
+  text-decoration: underline;
+}
+.home-tahlil-left-wrapper:hover p {
+  text-decoration: underline;
+}
+.home-tahlil-left-img-wrapper {
+  position: relative;
+}
+.home-tahlil-left-wrapper:hover .home-tahlil-left-img-wrapper::before {
+  content: "";
+  background: rgb(0, 0, 0);
+  opacity: 0.4;
+  width: 100%;
+  height: auto;
+  top: 0px;
+  right: 0;
+  bottom: 0px;
+  left: 0;
+  z-index: 99;
+  position: absolute;
+}
+
+/*---------------- Home Portret style ------------------*/
+.home-portret {
+  width: 100%;
+  margin-top: 20px;
+}
+.kundalik-btn-home-all,
+.dunyo-btn-home-all,
+.fikr-btn-home-all,
+.tahlil-btn-home-all,
+.portret-btn-home-all {
+  font-size: 30px;
+}
+.home-portret-wrapper {
+  width: 1800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-portret-body {
+  display: flex;
+}
+
+.home-portret-empty {
+  margin: 0 45px;
+  border-left: 1px solid #c4c4c4;
+}
+
+.home-portret-wrap1 {
+  display: flex;
+}
+
+.home-portret-btn {
+  width: 100%;
+  height: 56px;
+  background: #7b0d03;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  margin-top: 30px;
+}
+
+/*-------------------- Home Aksiya sec ---------------------*/
+.home-aksiya {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.home-aksiya-body {
+  width: 100%;
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.home-aksiya-left:hover {
+  color: #05af7e;
+  text-decoration: underline;
+}
+
+.home-aksiya-left {
+  text-decoration: none;
+  color: #000;
+  width: 60%;
+  border-right: 1px solid #c4c4c4;
+  padding-right: 20px;
+}
+
+.home-aksiya-video {
+  width: 100%;
+  height: 450px;
+}
+.home-aksiya-iframe {
+  width: 100%;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+}
+
+.home-aksiya-left h3 {
+  width: 85%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 32.98px;
+  padding: 16px 0;
+}
+
+.home-aksiya-left p {
+  width: 80%;
+  font-family: "Raleway", serif;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 15.71px;
+  color: #777777;
+}
+
+.home-aksiya-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home-aksiya-btn {
+  width: 100%;
+  height: 56px;
+  background: #017452;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  margin-top: 100px;
+}
+
+/*------------------------ Home Bottom Sec --------------------------*/
+.home-bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.home-bottom-wrapper {
+  width: 1800px;
+}
+
+.home-bottom-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0 79px 0;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.home-bottom-empty {
+  border-right: 1px solid #c4c4c4;
+  margin: 0 45px;
+}
+
+.home-bottom-see-all-div {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #a09d9c;
+}
+.home-bottom-see-all-div h5 {
+  font-family: "Raleway", serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+}
+.home-bottom-see-all-div a {
+  font-family: "Raleway", serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 26px;
+  text-decoration: none;
+  color: #000;
+}
+
+.home-bottom-see-all-div a p {
+  font-family: "Raleway", serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.home-bottom-see-all-div h5 {
+  font-size: 24px;
+  font-family: "Raleway", serif;
+  font-weight: 700;
+  line-height: 31.42px;
+}
+
+.home-bottom-see-all-div a {
+  text-decoration: none;
+}
+
+.home-bottom-see-all-div a p {
+  font-size: 20px;
+  font-family: "Raleway", serif;
+  font-weight: 300;
+  line-height: 26.18px;
+  cursor: pointer;
+}
+
+.home-bottom-bottom {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+.home-bottom-bottom-body {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-bottom-bottom-left {
+  padding-top: 42px;
+  width: 100%;
+}
+
+.home-bottom-bottom-text {
+  padding-left: 25px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 60px;
+  width: 974px;
+  border-left: 1px solid #c4c4c4;
+  margin-bottom: 53px;
+  width: 100%;
+  text-align: justify;
+}
+
+.home-bottom-bottom-payment h4 {
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 40px;
+  padding-bottom: 14px;
+}
+
+.home-bottom-payment {
+  display: flex;
+}
+
+.home-payment-payme {
+  cursor: pointer;
+  background-color: #016d7b;
+  width: 243px;
+  border-radius: 5px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.home-payment-payme img {
+  width: 155px;
+}
+
+.home-payment-click {
+  cursor: pointer;
+  background-color: #00d798;
+  width: 243px;
+  border-radius: 5px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-bottom-bottom-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-bottom-bottom-right h4 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 36.5px;
+  padding-bottom: 20px;
+}
+
+.home-bottom-bottom-right img {
+  width: 355px;
+  border: solid 8px #05af7e;
+}
+
+.home-bottom-bottom-empty {
+  display: none;
+}
+
+.home-catalog-li-last {
+  text-transform: capitalize;
+}
+.kundalik-left-bottom-body-1,
+.kundalik-left-bottom-body-3 {
+  width: 50%;
+}
+.kundalik-left-bottom-body-2 {
+  width: 25%;
+}
+.kundalik-left-bottom-1,
+.kundalik-left-bottom-2 {
+  width: 100%;
+  height: 100%;
+  word-wrap: break-word;
+}
+.home-kun-left-buttom-text {
+  font-size: 4px;
+}
+.home-fikr-author {
+  padding-bottom: 0 !important;
+}
+.kundalik-left-bottom-3 {
+  width: 100%;
+  height: 100%;
+}
+.kun-left-bottom-link {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.kun-left-bottom-link:hover {
+  color: #05af7e;
+  text-decoration: underline;
+  /* color: #000; */
+}
+.kun-left-bottom-link:hover .kun-left-bottom-link .kundalik-left-bottom-1 p {
+  color: #000;
+}
+
+.kundalik-left-bottom {
+  padding-left: 0;
+}
+.home-portret-wrap1,
+.home-protret-wrap-inside-1 {
+  width: 50%;
+}
+.home-protret-wrap-inside-1 {
+  padding-right: 30px;
+  padding-left: 30px;
+  border-right: solid 1px #c4c4c4;
+}
+.home-protret-wrap-inside-1-1 {
+  padding-left: 0;
+}
+.home-protret-wrap-inside-1-4 {
+  padding-right: 0;
+  border: none;
+}
+.kun-left-bottom-body-wraper-1 {
+  display: flex;
+  width: 50%;
+}
+.kun-left-bottom-link-4 {
+  width: 50%;
+}
+
+.kundalik-left-bottom-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 1920px) {
+  .home-catalog,
+  .home-fikr-wrapper,
+  .kundalik-container,
+  .home-kundalik-icons,
+  .home-dunyo-wrapper,
+  .home-tahlil-wrapper,
+  .home-portret-wrapper,
+  .home-bottom-wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1820px) {
+  .home-bottom-empty {
+    margin: 0 25px;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .home-bottom-bottom-body {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1650px) {
+  .kundalik-left-top-body h2 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .kundalik-left-bottom-all {
+    padding: 0 20px 0 20px;
+  }
+  .kundalik-left-bottom-all p {
+    line-height: 18px;
+  }
+  .kundalik-left-bottom-all h4 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1530px) {
+  .home-aksiya-left,
+  .home-aksiya-right {
+    width: 50%;
+  }
+  .home-aksiya-left h3 {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .kundalik-mid {
+    padding: 0 20px;
+  }
+  .kundalik-right {
+    margin-left: 20px;
+  }
+  .kundalik-right img {
+    height: 1200px;
+    width: 100%;
+  }
+  .kundalik-left-top {
+    padding-right: 20px;
+    height: 60%;
+  }
+  .kundalik-left-top-body-info h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .home-kun-line {
+    margin: 25px 20px 20px 0;
+  }
+  .home-dunyo-same {
+    padding: 0 30px;
+  }
+  .home-dunyo-1 {
+    padding-left: 0;
+  }
+  .home-dunyo-3 {
+    padding-left: 30px;
+  }
+  .home-tahlil-left {
+    padding-right: 25px;
+  }
+  .home-tahlil-right {
+    padding-left: 25px;
+  }
+  .home-bottom-bottom-left {
+    padding-right: 50px;
+    width: 100%;
+  }
+  .home-bottom-bottom-text {
+    font-size: 25px;
+    line-height: 35px;
+    padding-left: 25px;
+    text-align: justify;
+
+    width: 100%;
+  }
+  .home-bottom-bottom-right {
+    width: 20%;
+  }
+  .home-bottom-bottom-right img {
+    width: 100%;
+  }
+  .home-bottom-bottom-right h4 {
+    font-size: 14px;
+    line-height: 30px;
+    padding-bottom: 20px;
+  }
+  .kundalik-left-bottom-body {
+    flex-direction: column;
+    padding-top: 15px;
+  }
+
+  .kun-left-bottom-body-wraper-1 {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .kundalik-left-bottom-body-1,
+  .kundalik-left-bottom-body-3 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .kundalik-left-top-body h2 {
+    font-size: 30px;
+    line-height: 45px;
+    width: 45%;
+    padding-right: 20px;
+  }
+  .kundalik-left-top-body-info {
+    width: 55%;
+  }
+  .home-portret-empty {
+    margin: 0 25px;
+  }
+  .home-instagramIcon,
+  .home-youTubeIcon,
+  .home-telegramIcon,
+  .home-facebookIcon,
+  .home-linkedInIcon,
+  .home-twitterIcon,
+  .home-shareIcon {
+    width: 33px;
+    height: 33px;
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  .kundalik-left-bottom-all-imgDiv {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .home-catalog-li-last a {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .kundalik-mid {
+    padding: 0 16px;
+  }
+  .kundalik-right {
+    margin-left: 16px;
+  }
+  .kundalik-right img {
+    height: auto;
+  }
+  .kundalik-left-top {
+    padding-right: 16px;
+  }
+  .kundalik-left-top-body-info h3 {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .kundalik-left-bottom-all {
+    padding: 0 40px 0 16px;
+  }
+  .kundalik-left-bottom-all p {
+    line-height: 15px;
+    font-size: 12px;
+  }
+  .home-kundalik-see-all-btn,
+  .home-dunyo-btn,
+  .home-fikr-btn,
+  .home-tahlil-btn,
+  .home-portret-btn,
+  .home-aksiya-btn {
+    height: 50px;
+    padding: 0 25px;
+    margin-top: 20px;
+  }
+  .home-kundalik-see-all-btn h5,
+  .home-dunyo-btn h5,
+  .home-fikr-btn h5,
+  .home-tahlil-btn h5,
+  .home-portret-btn h5,
+  .home-aksiya-btn h5 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .home-kundalik-see-all-btn p,
+  .home-dunyo-btn p,
+  .home-fikr-btn p,
+  .home-tahlil-btn p,
+  .home-portret-btn p,
+  .home-aksiya-btn p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .home-kun-line {
+    margin: 25px 16px 20px 0;
+  }
+  .home-fikr-img-h2 {
+    font-size: 30px;
+    width: 100%;
+  }
+  .home-bottom-bottom-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .home-bottom-bottom-text {
+    font-size: 30px;
+    line-height: 45px;
+    text-align: justify;
+  }
+  .home-bottom-bottom-right {
+    width: 30%;
+  }
+  .home-bottom-bottom-right h4 {
+    font-size: 20px;
+  }
+  .kundalik-btn-home-all,
+  .dunyo-btn-home-all,
+  .fikr-btn-home-all,
+  .tahlil-btn-home-all,
+  .portret-btn-home-all {
+    font-size: 22px;
+  }
+  .home-dunyo-same:nth-child(2) .dunyo-new-card-img-wrapper {
+    height: 200px;
+  }
+  .home-dunyo-same:nth-child(3) .dunyo-new-card-img-wrapper {
+    height: 300px;
+  }
+  .kundalik-left-bottom-body {
+    flex-direction: column;
+  }
+  .kundalik-left-bottom-body-3,
+  .kun-left-bottom-body-wraper-1 {
+    width: 100%;
+  }
+
+  .kundalik-left-bottom {
+    height: 100%;
+  }
+
+  .home-tahlil-body {
+    flex-direction: column;
+  }
+  .home-tahlil-left {
+    width: 100%;
+    border: none;
+    padding-right: 0;
+  }
+  .home-bottom-card {
+    flex-direction: column;
+  }
+  .home-tahlil-right {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 30px;
+  }
+  .home-bottom-bottom {
+    padding: 40px 0 50px 0;
+  }
+  .home-bottom-bottom-text {
+    font-size: 26x;
+    line-height: 43px;
+    text-align: justify;
+  }
+  .home-bottom-bottom-right {
+    width: 30%;
+  }
+  .home-bottom-bottom-right h4 {
+    font-size: 16px;
+  }
+  .kundalik-left-top img {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 1185px) {
+  .kundalik-left {
+    width: 50%;
+  }
+  .kundalik-right,
+  .kundalik-mid {
+    width: 25%;
+  }
+  .kundalik-right img {
+    height: 1050px;
+  }
+  /* .kundalik-left-bottom-body { */
+  /* justify-content: space-between; */
+  /* } */
+  .kundalik-left-top {
+    padding-right: 45px;
+    border-right: 1px solid #c4c4c4;
+    height: 55%;
+  }
+  .kundalik-left-bottom {
+    height: calc(45% - 62px);
+  }
+  .kundalik-left-bottom-all {
+    margin-bottom: 40px;
+  }
+  .kundalik-left-bottom-all p {
+    line-height: 15px;
+  }
+  .kundalik-left-bottom-all h4 {
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .kundalik-left-top-body-info h3 {
+    font-size: 20px;
+  }
+  .kundalik-left-top-body h2 {
+    font-size: 30px;
+    width: 100%;
+    padding-right: 0;
+    padding-bottom: 20px;
+  }
+  .kundalik-left-top-body-info {
+    width: 100%;
+  }
+  .kundalik-left-top-body {
+    flex-direction: column;
+  }
+  .kundalik-left-top {
+    padding-right: 16px;
+  }
+  .kundalik-left-bottom-1,
+  .kundalik-left-bottom-3 {
+    padding-left: 0;
+  }
+  .home-dunyo-same {
+    padding: 0 20px;
+  }
+  .home-dunyo-1 {
+    padding-left: 0;
+  }
+  .home-dunyo-3 {
+    padding-left: 20px;
+  }
+  .home-bottom-bottom-text {
+    font-size: 25px;
+    line-height: 40px;
+    text-align: justify;
+  }
+  .home-bottom-bottom-right h4 {
+    font-size: 18px;
+  }
+  .kundalik-left-bottom-all {
+    padding: 0 15px;
+  }
+  .kundalik-left-bottom {
+    height: auto;
+  }
+  .kundalik-left-bottom h4 {
+    font-size: 11px;
+  }
+  .kundalik-left-bottom-all-imgDiv {
+    height: 100px;
+    /* width: 200px; */
+    /* padding-right: 20px; */
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .home-portret {
+    margin-top: 0px;
+  }
+  .home-portret-body {
+    flex-direction: column;
+  }
+  .home-portret-wrap1 {
+    margin-top: 20px;
+  }
+  .home-portret-empty0 {
+    display: none;
+  }
+  .home-portret-wrap1 {
+    width: 100%;
+  }
+  .home-protret-wrap-inside-1-2 {
+    border: none;
+  }
+  .home-protret-wrap-inside-1-3 {
+    padding-left: 0;
+  }
+  .kundalik-left-bottom-body {
+    flex-direction: column;
+  }
+  .kundalik-left-bottom-body-3,
+  .kun-left-bottom-body-wraper-1 {
+    width: 100%;
+  }
+  .kundalik-left-bottom-1 h4,
+  .kundalik-left-bottom-3 h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+  }
+  .kundalik-left-bottom-1 h4:hover,
+  .kundalik-left-bottom-3 h4:hover {
+    color: #05af7e;
+  }
+  .kundalik-left-bottom-1 h4:hover .kundalik-left-bottom-1 p,
+  .kundalik-left-bottom-3 h4:hover .kundalik-left-bottom-1 p {
+    color: #000;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .home-catalog-wrapper,
+  .home-kundalik-icons {
+    display: none;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .home-tahlil-body {
+    flex-direction: column;
+  }
+  .home-tahlil-left {
+    width: 100%;
+    border: none;
+    padding-right: 0;
+  }
+  .home-bottom-card {
+    flex-direction: column;
+  }
+  .home-tahlil-right {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 30px;
+  }
+  .home-bottom-bottom {
+    padding: 40px 0 50px 0;
+  }
+  .home-bottom-bottom-text {
+    font-size: 26x;
+    line-height: 43px;
+    text-align: justify;
+  }
+  .home-bottom-bottom-right {
+    width: 30%;
+  }
+  .home-bottom-bottom-right h4 {
+    font-size: 16px;
+  }
+  .home-payment-payme {
+    width: 200px;
+    height: 70px;
+    margin-right: 30px;
+  }
+  .home-payment-payme img,
+  .home-payment-click img {
+    width: 120px;
+  }
+  .home-payment-click {
+    width: 200px;
+    height: 70px;
+  }
+  .home-bottom-bottom-payment {
+    padding-left: 25px;
+  }
+  .home-bottom-bottom-payment h4 {
+    font-size: 20px;
+  }
+  .home-bottom-see-all-div {
+    padding-bottom: 11px;
+  }
+  .home-bottom-see-all-div h5 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .home-aksiya-body {
+    flex-direction: column;
+  }
+  .home-aksiya-left {
+    border: none;
+    padding: 0;
+    width: 100%;
+  }
+  .home-aksiya-video iframe {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  .home-aksiya-left h3 {
+    font-size: 24px;
+    line-height: 33px;
+    padding: 10px 0 10px 0;
+  }
+  .home-aksiya-right {
+    width: 100%;
+    padding-top: 30px;
+  }
+  .home-aksiya-body {
+    padding-bottom: 0px;
+  }
+
+  .home-aksiya-video {
+    position: relative;
+    width: 100%;
+  }
+  .home-aksiya-iframe {
+    width: 100%;
+    height: 300px;
+  }
+  /* .home-kundalik-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+  } */
+  .home-instagramIcon,
+  .home-youTubeIcon,
+  .home-telegramIcon,
+  .home-facebookIcon,
+  .home-linkedInIcon,
+  .home-twitterIcon,
+  .home-shareIcon {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  .kundalik-left-top-body h2 {
+    font-size: 29px;
+    line-height: 34px;
+  }
+  .kundalik-left-bottom-all-imgDiv {
+    height: 130px;
+  }
+  .home-catalog {
+    display: unset;
+  }
+  .kundalik-btn-home-all,
+  .dunyo-btn-home-all,
+  .fikr-btn-home-all,
+  .tahlil-btn-home-all,
+  .portret-btn-home-all {
+    font-size: 19px;
+  }
+  .home-dunyo-same:nth-child(2) .dunyo-new-card-img-wrapper {
+    height: 160px;
+  }
+  .home-dunyo-same:nth-child(3) .dunyo-new-card-img-wrapper {
+    height: 260px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .home-container {
+    padding: 0 30px;
+  }
+  /* .kundalik-right-950px {
+    display: block;
+    margin-bottom: 30px;
+    height: 120px;
+  } */
+  /* .kundalik-right-950px img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+  .kundalik-right {
+    display: none;
+  }
+  .kundalik-left {
+    width: 65%;
+  }
+  .kundalik-mid {
+    width: 35%;
+  }
+  .kundalik-left-top-body-info h3 {
+    font-size: 16px;
+  }
+  .kundalik-left-top-body-info p {
+    font-size: 10px;
+  }
+  .kundalik-left-top-body h2 {
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+  .home-kundalik-see-all-btn,
+  .home-dunyo-btn,
+  .home-fikr-btn,
+  .home-tahlil-btn,
+  .home-portret-btn,
+  .home-aksiya-btn {
+    height: 40px;
+    margin-top: 20px;
+  }
+  .home-kundalik-see-all-btn h5,
+  .home-dunyo-btn h5,
+  .home-fikr-btn h5,
+  .home-tahlil-btn h5,
+  .home-portret-btn h5,
+  .home-aksiya-btn h5 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .home-kundalik-see-all-btn p,
+  .home-dunyo-btn p,
+  .home-fikr-btn p,
+  .home-tahlil-btn p,
+  .home-portret-btn p,
+  .home-aksiya-btn p {
+    font-size: 14px;
+    line-height: 15px;
+  }
+  .home-fikr-img-h2 {
+    font-size: 25px;
+  }
+  .home-bottom-bottom-text {
+    font-size: 20x;
+    line-height: 40px;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .home-catalog-li-last a {
+    padding: 0px 15px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .home-dunyo-same {
+    padding: 0 16px;
+  }
+  .home-dunyo-1 {
+    padding-left: 0;
+  }
+  .home-dunyo-3 {
+    padding-left: 16px;
+  }
+  .kundalik-mid {
+    border-right: none;
+    padding-right: 0;
+  }
+  .home-tahlil-left img {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .home-dunyo-main {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .home-dunyo-same {
+    width: 100%;
+    padding: 0 0 50px 0;
+    border-right: none;
+  }
+  .home-dunyo-2 {
+    padding: 0 0 50px 0;
+  }
+  .home-dunyo-3 {
+    width: 100%;
+    padding: 0px;
+  }
+  .home-portret-empty {
+    border-bottom: 1px solid #c4c4c4;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin: 20px 0;
+  }
+  .home-portret-empty0 {
+    display: block;
+  }
+  .home-portret {
+    margin-top: 20px;
+  }
+  .home-portret-body {
+    flex-direction: column;
+  }
+  .home-portret-wrap1 {
+    margin-top: 0px;
+    flex-direction: column;
+  }
+  .home-bottom-bottom-text {
+    font-size: 18px;
+  }
+  .home-payment-payme {
+    width: 140px;
+    height: 60px;
+    margin-right: 30px;
+  }
+  .home-payment-click {
+    width: 140px;
+    height: 60px;
+  }
+  .home-payment-payme img,
+  .home-payment-click img {
+    width: 80px;
+  }
+  .home-bottom-bottom-right h4 {
+    font-size: 14px;
+  }
+  .home-aksiya-left h3 {
+    width: 100%;
+  }
+  .home-protret-wrap-inside-1 {
+    width: 100%;
+  }
+  .home-protret-wrap-inside-1 {
+    border: none;
+  }
+  .home-protret-wrap-inside-1-2,
+  .home-protret-wrap-inside-1-4 {
+    padding-left: 0;
+  }
+  .kundalik-btn-home-all,
+  .dunyo-btn-home-all,
+  .fikr-btn-home-all,
+  .tahlil-btn-home-all,
+  .portret-btn-home-all {
+    font-size: 17px;
+  }
+  .home-dunyo-same:nth-child(1) .dunyo-new-card-img-wrapper {
+    height: 200px;
+  }
+  .home-dunyo-same:nth-child(2) .dunyo-new-card-img-wrapper {
+    height: 200px;
+  }
+  .home-dunyo-same:nth-child(3) .dunyo-new-card-img-wrapper {
+    height: 200px;
+  }
+  .kundalik-left-top img {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .home-catalog-li-last a {
+    padding: 0px 10px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .home-tahlil-left h3 {
+    font-size: 20px;
+    width: 100%;
+  }
+  .home-tahlil-left h6 {
+    font-size: 16px;
+  }
+  .home-tahlil-right {
+    padding-top: 60px;
+  }
+  .kundalik-btn-home-all,
+  .dunyo-btn-home-all,
+  .fikr-btn-home-all,
+  .tahlil-btn-home-all,
+  .portret-btn-home-all {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .kundalik-left-top {
+    height: 45%;
+  }
+  .kundalik-left-bottom {
+    height: calc(55% - 62px);
+  }
+  .kundalik-left-top-body h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .kundalik-left-top-body-info h3 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .kundalik-left-bottom-heading {
+    font-size: 18px;
+  }
+  .home-kundalik-see-all-btn,
+  .home-dunyo-btn,
+  .home-fikr-btn,
+  .home-tahlil-btn,
+  .home-portret-btn,
+  .home-aksiya-btn {
+    height: 30px;
+  }
+  .home-kundalik-see-all-btn h5,
+  .home-dunyo-btn h5,
+  .home-fikr-btn h5,
+  .home-tahlil-btn h5,
+  .home-portret-btn h5,
+  .home-aksiya-btn h5 {
+    font-size: 12px;
+    line-height: 10px;
+  }
+  .home-kundalik-see-all-btn p,
+  .home-dunyo-btn p,
+  .home-fikr-btn p,
+  .home-tahlil-btn p,
+  .home-portret-btn p,
+  .home-aksiya-btn p {
+    font-size: 11px;
+    line-height: 5px;
+  }
+  .home-fikr-btn {
+    margin-top: 20px;
+  }
+  .home-fikr-img-h2 {
+    font-size: 17px;
+  }
+  .home-fikr-img p {
+    font-size: 14px;
+    padding: 16px 0;
+    padding-bottom: 0;
+  }
+  .home-fikr-img {
+    padding: 36px;
+    height: auto;
+    overflow: hidden;
+    padding-top: 200px;
+  }
+  .kundalik-left-bottom-all {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .home-catalog-li-last a {
+    padding: 0px 8px;
+    font-size: 12px;
+  }
+  .kundalik-btn-home-all,
+  .dunyo-btn-home-all,
+  .fikr-btn-home-all,
+  .tahlil-btn-home-all,
+  .portret-btn-home-all {
+    font-size: 15px;
+  }
+  .home-fikr {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .kundalik-left-top {
+    height: 40%;
+  }
+  .kundalik-left-bottom {
+    height: calc(100% - 62px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .kundalik-left-top-body {
+    padding: 20px 0;
+    padding-bottom: 0;
+  }
+  .kundalik-left-top-body h2 {
+    font-size: 27px;
+    line-height: 30px;
+  }
+  .kundalik-left-top-body-info h3 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .kundalik-left-bottom-all h4 {
+    font-size: 10px;
+  }
+  .kundalik-left-bottom-all p {
+    font-size: 10px;
+  }
+  .kundalik-left-top-body-info p {
+    font-size: 9px;
+  }
+  .kundalik-left-bottom-heading {
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+  .home-tahlil-left h3 {
+    font-size: 16px;
+    padding-top: 8px;
+    line-height: 20px;
+  }
+  .home-tahlil-left h6 {
+    font-size: 14px;
+  }
+  .home-tahlil-left p {
+    font-size: 12px;
+    padding-bottom: 10px;
+  }
+  .home-tahlil-right {
+    padding-top: 30px;
+  }
+  .home-aksiya-left h3 {
+    width: 100%;
+    padding-top: 12px;
+  }
+  .home-aksiya-right {
+    padding-top: 40px;
+  }
+  .home-bottom-bottom {
+    padding-top: 50px;
+  }
+  .home-bottom-bottom-text {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .home-payment-payme {
+    width: 110px;
+    height: 45px;
+    margin-right: 20px;
+  }
+  .home-payment-click {
+    width: 110px;
+    height: 45px;
+  }
+  .home-payment-payme img,
+  .home-payment-click img {
+    width: 65px;
+  }
+  .home-bottom-bottom-right h4 {
+    font-size: 9px;
+    line-height: 16px;
+    padding-bottom: 10px;
+  }
+  .home-bottom-bottom-left {
+    padding-top: 26px;
+  }
+  .kundalik-left-top {
+    padding-bottom: 150px;
+  }
+  .home-dunyo-1,
+  .home-dunyo-2,
+  .home-dunyo-3 {
+    padding-bottom: 10px;
+  }
+  /* .kundalik-left-bottom-all-imgDiv {
+    height: 130px;
+    width: 100px;
+  } */
+  .home-aksiya-iframe {
+    width: 100%;
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .kundalik-left-bottom,
+  .home-kun-line {
+    display: none;
+  }
+  .kundalik-left-bottom-mobile,
+  .kun-left-bottom-body-wraper-1-mobile {
+    display: block;
+  }
+  .kundalik-left-bottom-body-1-mobile,
+  .kun-left-bottom-link-4-mobile {
+    width: 100%;
+  }
+  .kundalik-left-bottom-all-mobile {
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .kundalik-left-bottom-all-mobile h4 {
+    font-size: 16px;
+  }
+
+  .kundalik-left-top {
+    height: 100%;
+    padding-bottom: 30px;
+  }
+  .home-kundalik-wrapper {
+    flex-direction: column;
+  }
+  .kundalik-left-top {
+    padding-right: 0;
+    border-right: none;
+  }
+  .kundalik-left,
+  .kundalik-mid {
+    width: 100%;
+    padding: 0;
+    border: none;
+  }
+  .kundalik-left-top-body {
+    padding: 10px 0 0px 0;
+  }
+  .kundalik-left-top-body h2 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .kundalik-left-top-body-info h3 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .kundalik-left-top-body {
+    padding-bottom: 0px;
+  }
+  .home-fikr-img-h2 {
+    font-size: 14px;
+  }
+  .home-fikr-img p {
+    font-size: 8px;
+  }
+  .kundalik-left-bottom-body {
+    flex-direction: column;
+  }
+  .kun-left-bottom-body-wraper-1,
+  .kundalik-left-bottom-body-3 {
+    /* display: flex; */
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .home-catalog-li-last a {
+    display: none;
+    padding: 0px 5px;
+    font-size: 11px;
+  }
+  .home-container {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .home-bottom-bottom {
+    padding-top: 20px;
+  }
+  .home-bottom-bottom-body {
+    flex-direction: column-reverse;
+  }
+  .home-bottom-bottom-right {
+    width: 100%;
+  }
+  .home-bottom-bottom-right h4 {
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 31px;
+  }
+  .home-bottom-bottom-left {
+    width: 100%;
+    padding-right: 0;
+    padding-top: 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-bottom-bottom-text {
+    border: none;
+    padding: 0;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: justify;
+  }
+  .home-bottom-bottom-empty {
+    display: block;
+    border-bottom: 1px solid #000;
+    width: 190px;
+  }
+  .home-bottom-bottom-payment h4 {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 15px 0 27px 0;
+  }
+  .home-bottom-bottom-payment {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-payment-payme,
+  .home-payment-click {
+    width: 148px;
+    height: 45px;
+  }
+  .home-payment-payme img,
+  .home-payment-click img {
+    width: 90px;
+  }
+  .kundalik-left-top {
+    padding-bottom: 30px;
+  }
+  .home-dunyo-1,
+  .home-dunyo-2 {
+    padding-bottom: 8px;
+  }
+  .home-dunyo-3 {
+    padding-bottom: 0px;
+  }
+  .home-fikr-img {
+    padding-bottom: 0px;
+  }
+  .home-fikr-wrapper {
+    padding-bottom: 0px;
+  }
+  .language-wrapper,
+  .language-wrapper span {
+    font-size: 12px !important;
+  }
+  .nav-top-right-size-changer,
+  .size-btn {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .home-bottom-bottom-text {
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .home-bottom-bottom-empty {
+    display: block;
+    border-bottom: 1px solid #000;
+    width: 190px;
+  }
+  .home-bottom-bottom-payment h4 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .home-payment-payme,
+  .home-payment-click {
+    width: 128px;
+    height: 45px;
+  }
+  .home-payment-payme img,
+  .home-payment-click img {
+    width: 80px;
+  }
+  .home-aksiya-left h3 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .home-container {
+    padding: 0 20px;
+  }
+  .home-fikr-img-h2 {
+    font-size: 12px;
+  }
+  .home-fikr-img p {
+    font-size: 8px;
+    padding-top: 10px;
+    line-height: 10px;
+  }
+  .home-tahlil-left h3 {
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+  .home-tahlil-left h6 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .home-tahlil-left p {
+    padding-bottom: 8px;
+    font-size: 9px;
+  }
+  .home-tahlil {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .home-container {
+    padding-top: 20px;
+  }
+  .kundalik-left-top img {
+    height: 200px;
+  }
+}

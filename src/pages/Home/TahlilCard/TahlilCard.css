@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.tahlilCard {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 25px;
+  text-decoration: none;
+  color: #000;
+}
+
+.tahlilCardImg {
+  width: 40%;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+
+.tahlilCardImg img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.tahlilCard:hover .tahlilCardImg::before {
+  content: "";
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.38);
+  position: absolute;
+  height: auto;
+  width: 100%;
+}
+
+.tahlilCard-text {
+  width: 60%;
+  padding-left: 16px;
+}
+
+.tahlilCard-text h4 {
+  font-size: 24px;
+  font-family: "Irvin";
+  font-weight: 700;
+  line-height: 29.86px;
+}
+
+.tahlilCard-text p {
+  font-size: 17px;
+  font-family: "Raleway", serif;
+  font-weight: 600;
+  line-height: 15.71px;
+  color: #777777;
+  padding: 20px 0;
+}
+
+.tahlilCard-text h5 {
+  font-size: 18px;
+  font-family: "Raleway", serif;
+  font-weight: 600;
+  line-height: 23.56px;
+  color: #222222;
+}
+
+.tahlilCard:hover {
+  color: #05af7e;
+}
+
+.tahlilCardImg {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1500px) {
+  .tahlilCard-text h4 {
+    font-size: 20px;
+  }
+  .tahlilCard-text h5 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .tahlilCard {
+    flex-direction: row;
+  }
+  .tahlilCardImg {
+    width: 100%;
+    height: 300px;
+    position: relative;
+  }
+  .tahlilCard-text {
+    width: 100%;
+    padding-left: 0;
+  }
+  .tahlilCard-text h4 {
+    font-size: 20px;
+  }
+  .tahlilCard-text h5 {
+    font-size: 16px;
+  }
+
+  .tahlilCard-text {
+    width: 100%;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .tahlilCard {
+    flex-direction: row;
+  }
+  .tahlilCard-text {
+    width: 100%;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .tahlilCard {
+    flex-direction: column;
+  }
+  .tahlilCard-text {
+    padding-left: 0px;
+  }
+  .tahlilCard-text h4 {
+    padding-top: 16px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .tahlilCard-text h4 {
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 8px;
+  }
+  .tahlilCard-text h5 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .tahlilCard-text p {
+    padding-top: 16px;
+    padding-bottom: 10px;
+  }
+  .tahlilCard {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .tahlilCard-text h4 {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 8px;
+  }
+  .tahlilCard-text h5 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .tahlilCard-text p {
+    font-size: 8px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+  }
+  .tahlilCard {
+    padding-bottom: 50px;
+  }
+}

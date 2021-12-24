@@ -1,0 +1,23 @@
+.navbar-secondary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+    padding: 10px 20px;
+}
+
+.advert-form-select {
+    width: 20% !important;
+}
+
+.search-box {
+    padding: 10px 20px;
+}
+
+.adverts-img-section {
+    padding: 10px 20px;
+}
+
+.form-control {
+    border: none;
+}
+

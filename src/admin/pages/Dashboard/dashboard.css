@@ -1,0 +1,78 @@
+.dashboard-main {
+  padding: 0;
+  background: #f9f9f9;
+}
+
+.navbar-section {
+  padding: 15px 25px;
+}
+
+.dashboard-content {
+  width: 100%;
+}
+
+.page-container {
+  max-width: 95%;
+  margin: auto;
+}
+
+.statistics-section {
+  width: 100%;
+  margin: auto;
+  padding-left: 10px;
+}
+
+.chart-wrapper {
+  padding: 0;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.todo-wrapper {
+  padding: 0 0 0 10px;
+}
+
+.latest-news-section {
+  padding: 20px 10px;
+}
+
+.latest-news-wrapper {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.latest-img {
+  width: 150px;
+  height: 150px;
+}
+
+.latest-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.latest-text .text-wrapped {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.news-wrapper {
+  padding: 10px 0;
+}
+
+.latest-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.dashboard-footer {
+  padding: 10px 10px;
+}

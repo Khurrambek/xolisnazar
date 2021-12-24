@@ -1,0 +1,793 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.obuna-full-container {
+  margin-top: 65px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.obuna-wrapper {
+  width: 1800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.obuna-backgroun-image {
+  background-image: url("../Magazines//assets/obuna_back.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 8;
+  color: #fff;
+  position: relative;
+}
+
+.obuna-backgroun-image::before {
+  content: "";
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  position: absolute;
+}
+
+.obuna-backgroun-image div {
+  font-family: "Irvin";
+  font-size: 70px;
+  color: #ffffff;
+  font-weight: 400;
+  position: relative;
+  letter-spacing: 0.03em;
+}
+.obuna-secondPart-container {
+  background: #f8f8f8;
+  width: 85%;
+}
+.obuna-secondPart-wrapper {
+  padding: 125px 100px;
+}
+.obuna-title-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.obuna-secondPart-title {
+  color: #222222;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 165.9%;
+}
+.obuna-title-div p {
+  font-family: Raleway;
+  padding-top: 58px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 190.9%;
+  letter-spacing: 0.03em;
+  color: #222222;
+}
+/* --------------------------------- */
+.obunaInputBtn {
+  display: none;
+}
+.obunaLabelBtn::selection {
+  background: none;
+}
+.obunaLabelBtn {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 165.9%;
+  text-align: center;
+  color: #222222;
+  padding: 6px 36px;
+}
+.obunaInputBtn:checked + .obunaLabelBtn {
+  border: 0;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 165.9%;
+  text-align: center;
+  padding: 6px 32px;
+  background: #2f9074;
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
+}
+/* obina turi ----------------- */
+.obuna-turi-wrapper {
+  padding-bottom: 80px;
+}
+.obuna-turi-title-obuna {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: #222222;
+}
+.obuna-obuna-tolov-title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: #222222;
+}
+.obuna-input {
+  display: none;
+}
+.obuna-payment-input {
+  display: none;
+}
+.obuna-label-newspaper {
+  font-size: 25px;
+  padding: 7px 15px;
+  margin-right: 30px;
+  font-weight: 700;
+}
+.obuna-payment-label {
+  font-size: 25px;
+  padding: 7px 15px;
+  margin-right: 30px;
+  font-weight: 600;
+}
+.obuna-input:checked + .obuna-label-newspaper {
+  background-color: #2f9074;
+  border-radius: 5px;
+  border: 1px solid #2f9074;
+  color: #fff;
+}
+.obuna-payment-input:checked + .obuna-payment-label {
+  background-color: #2f9074;
+  border-radius: 5px;
+  border: 1px solid #2f9074;
+  color: #fff;
+}
+.obuna-form-payme {
+  padding: 30px 0 50px 0;
+}
+
+@media screen and (max-width: 1700px) {
+  .obunaLabelBtn {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 145.9%;
+    padding: 5px 30px;
+    cursor: pointer;
+  }
+
+  .obunaInputBtn:checked + .obunaLabelBtn {
+    font-size: 28px;
+    line-height: 145.9%;
+    padding: 5px 30px;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .obunaLabelBtn {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 125.9%;
+    padding: 5px 25px;
+    cursor: pointer;
+  }
+
+  .obunaInputBtn:checked + .obunaLabelBtn {
+    font-size: 25px;
+    line-height: 125.9%;
+    padding: 5px 25px;
+    border-radius: 5px;
+  }
+  /*  */
+  .obuna-turi-title-obuna {
+    font-size: 22px;
+  }
+  .obuna-obuna-tolov-title {
+    font-size: 22px;
+  }
+  .obuna-label-newspaper {
+    font-size: 22px;
+    padding: 7px 15px;
+    margin-right: 30px;
+  }
+  .obuna-payment-label {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .obunaLabelBtn {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 125.9%;
+    padding: 5px 25px;
+    cursor: pointer;
+  }
+
+  .obunaInputBtn:checked + .obunaLabelBtn {
+    font-size: 22px;
+    line-height: 125.9%;
+    padding: 5px 25px;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .obunaLabelBtn {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 105.9%;
+    padding: 5px 22px;
+    cursor: pointer;
+  }
+
+  .obunaInputBtn:checked + .obunaLabelBtn {
+    font-size: 20px;
+    line-height: 105.9%;
+    padding: 5px 22px;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .obunaLabelBtn {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 105.9%;
+    padding: 5px 22px;
+    cursor: pointer;
+  }
+
+  .obunaInputBtn:checked + .obunaLabelBtn {
+    font-size: 20px;
+    line-height: 105.9%;
+    padding: 5px 22px;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .obunaLabelBtn {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 105.9%;
+    padding: 5px 20px;
+  }
+
+  .obunaInputBtn:checked + .obunaLabelBtn {
+    font-size: 18px;
+    line-height: 105.9%;
+    padding: 5px 20px;
+    border-radius: 5px;
+  }
+  .obuna-turi-title-obuna {
+    font-size: 22px;
+  }
+
+  .obuna-obuna-tolov-title {
+    font-size: 22px;
+  }
+  .obuna-label-newspaper {
+    font-size: 19px;
+    padding: 2px 10px;
+    margin-right: 20px;
+  }
+  .obuna-payment-label {
+    font-size: 19px;
+    padding: 2px 10px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .obunaLabelBtn {
+    font-size: 16px;
+    line-height: 90.9%;
+    padding: 5px 15px;
+  }
+
+  .obunaInputBtn:checked + .obunaLabelBtn {
+    font-size: 16px;
+    line-height: 90.9%;
+    padding: 5px 15px;
+    border-radius: 5px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .obuna-turi-title-obuna {
+    font-size: 20px;
+  }
+  .obuna-obuna-tolov-title {
+    font-size: 20px;
+  }
+  .obuna-label-newspaper {
+    display: inline;
+    font-size: 16px;
+    padding: 2px 7px;
+    margin-right: 10px;
+  }
+  .obuna-payment-label {
+    font-size: 16px;
+    padding: 2px 7px;
+    margin-right: 10px;
+  }
+}
+
+/* --------------------------------- */
+
+/* ------------------ inputs ------------------ */
+.obuna-input-div {
+  margin-bottom: 75px;
+}
+.obuna-input-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.obuna-input-form input {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #222222;
+  background: transparent;
+  outline: none;
+  line-height: 20px;
+  font-size: 30px;
+  padding: 30px 0;
+  padding-bottom: 10px;
+  color: #222222;
+}
+.obuna-input-form input::placeholder {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  /* font-size: 30px; */
+  line-height: 165.9%;
+  color: #222222;
+  color: #807c7c;
+}
+.obuna-input-inputBottom0 {
+  margin-bottom: 0 !important;
+}
+/* ------------------ inputs ------------------ */
+/* ------------------- obuna Oyi -------------- */
+.obuna-obunaOyi-div {
+  margin-bottom: 110px;
+}
+.obuna-obunaOyi-title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 165.9%;
+  color: #222222;
+  padding-bottom: 55px;
+}
+/* ------------------- obuna Oyi -------------- */
+/* ------------- btns ------- */
+.obuna-btnsInput-container {
+  width: 100%;
+  display: grid;
+  grid-row-gap: 55px;
+  grid-column-gap: 15px;
+  grid-template-columns: auto auto auto auto auto auto;
+  justify-content: space-between;
+}
+/* ------------- btns ------- */
+.obuna-umumiy-hisob {
+  margin-top: 60px;
+  display: flex;
+}
+
+.obuna-umumiy-hisob {
+  margin-bottom: 60px;
+}
+
+.obuna-umumiy-hisob h1 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 165.9%;
+  color: #222222;
+  font-weight: 700;
+  margin-right: 35px;
+}
+.obuna-umumiy-hisob h6 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 165.9%;
+  font-weight: 400;
+  color: #222222;
+}
+
+.obuna-bottom-btn {
+  font-family: Raleway;
+  width: 100%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 165.9%;
+  text-align: center;
+  color: #ffffff;
+  /*  */
+  background: #2f9074;
+  border: 1px solid #2f9074;
+  padding: 15px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.obuna-bottom-btn:hover {
+  background: #418673;
+}
+
+/* ---------------- responsive page ------------------ */
+@media screen and (max-width: 1920px) {
+  .obuna-wrapper {
+    width: 100%;
+  }
+  .obuna-full-container {
+    padding: 0 60px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .obuna-full-container {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .obuna-backgroun-image div {
+    font-size: 60px;
+  }
+  .obuna-title-div {
+    margin-bottom: 40px;
+  }
+  .obuna-secondPart-title {
+    font-size: 28px;
+    line-height: 165.9%;
+  }
+  .obuna-title-div p {
+    padding-top: 48px;
+    font-size: 20px;
+    line-height: 190.9%;
+    letter-spacing: 0.03em;
+  }
+  /* ----------- input --------- */
+  .obuna-input-div {
+    margin-bottom: 65px;
+  }
+
+  .obuna-btnsInput-container {
+    width: 100%;
+    grid-row-gap: 45px;
+    grid-template-columns: auto auto auto auto auto;
+  }
+  .obuna-obunaOyi-div {
+    margin-bottom: 60px;
+  }
+  .obuna-obunaOyi-title {
+    font-size: 30px;
+    line-height: 145.9%;
+    padding-bottom: 45px;
+  }
+  /*  */
+  .obuna-input-form input {
+    line-height: 10px;
+    font-size: 22px;
+    padding: 30px 0;
+    padding-bottom: 10px;
+  }
+  .obuna-input-form input::placeholder {
+    font-weight: 600;
+    /* font-size: 22px; */
+    line-height: 165.9%;
+    color: #807c7c;
+  }
+  /*  */
+  .obuna-umumiy-hisob {
+    margin-top: 45px;
+  }
+
+  .obuna-umumiy-hisob {
+    margin-bottom: 45px;
+  }
+
+  .obuna-umumiy-hisob h1 {
+    font-size: 27px;
+    line-height: 165.9%;
+    font-weight: 700;
+    margin-right: 20px;
+  }
+  .obuna-umumiy-hisob h6 {
+    font-size: 27px;
+    line-height: 165.9%;
+    font-weight: 400;
+  }
+  /*  */
+  .obuna-bottom-btn {
+    font-size: 25px;
+    line-height: 165.9%;
+    padding: 10px 0;
+  }
+  /*  */
+
+}
+
+@media screen and (max-width: 1300px) {
+  .obuna-backgroun-image div {
+    font-size: 50px;
+  }
+  .obuna-btnsInput-container {
+    grid-row-gap: 30px;
+    grid-template-columns: auto auto auto auto;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .obuna-secondPart-wrapper {
+    padding: 50px 80px;
+  }
+  .obuna-backgroun-image div {
+    font-size: 47px;
+  }
+  .obuna-title-div {
+    margin-bottom: 50px;
+  }
+  .obuna-secondPart-title {
+    font-size: 25px;
+    line-height: 165.9%;
+  }
+  .obuna-title-div p {
+    padding-top: 30px;
+    font-size: 18px;
+  }
+  .obuna-input-form input {
+    line-height: 10px;
+    font-size: 18px;
+    padding: 30px 0;
+    padding-bottom: 10px;
+  }
+  .obuna-input-form input::placeholder {
+    font-weight: 600;
+    /* font-size: 18px; */
+    line-height: 105.9%;
+  }
+  .obuna-umumiy-hisob {
+    margin-top: 40px;
+  }
+
+  .obuna-umumiy-hisob {
+    margin-bottom: 40px;
+  }
+
+  .obuna-umumiy-hisob h1 {
+    font-size: 24px;
+    line-height: 105.9%;
+    font-weight: 700;
+    margin-right: 20px;
+  }
+  .obuna-umumiy-hisob h6 {
+    font-size: 24px;
+    line-height: 105.9%;
+    font-weight: 400;
+  }
+  /*  */
+  .obuna-bottom-btn {
+    font-size: 22px;
+    line-height: 145.9%;
+    padding: 9px 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .obuna-backgroun-image div {
+    font-size: 42px;
+  }
+  .obuna-btnsInput-container {
+    grid-row-gap: 30px;
+    grid-template-columns: auto auto auto auto;
+  }
+  .obuna-obunaOyi-div {
+    margin-bottom: 35px;
+  }
+  .obuna-obunaOyi-title {
+    font-size: 27px;
+    line-height: 125.9%;
+    padding-bottom: 22px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .obuna-btnsInput-container {
+    grid-row-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .obuna-secondPart-title {
+    font-size: 22px;
+    line-height: 145.9%;
+  }
+  obuna-full-container {
+    padding: 0 30px;
+  }
+  .obuna-backgroun-image {
+    height: 350px;
+  }
+  .obuna-btnsInput-container {
+    grid-row-gap: 20px;
+    grid-template-columns: auto auto auto;
+  }
+  .obuna-secondPart-wrapper {
+    padding: 30px 50px;
+  }
+  .obuna-title-div p {
+    padding-top: 15px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .obuna-backgroun-image {
+    height: 350px;
+  }
+  .obuna-secondPart-wrapper {
+    padding: 40px 60px;
+  }
+  .obuna-btnsInput-container {
+    grid-row-gap: 15px;
+    grid-template-columns: auto auto;
+  }
+  .obuna-obunaOyi-div {
+    margin-bottom: 40px;
+  }
+  .obuna-obunaOyi-title {
+    font-size: 27px;
+    line-height: 125.9%;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .obuna-backgroun-image {
+    height: 300px;
+  }
+  .obuna-backgroun-image div {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .obuna-umumiy-hisob h1 {
+    font-size: 19px;
+    line-height: 105.9%;
+    font-weight: 700;
+    margin-right: 10px;
+  }
+  .obuna-umumiy-hisob h6 {
+    font-size: 19px;
+    line-height: 105.9%;
+    font-weight: 400;
+  }
+  .obuna-bottom-btn {
+    font-size: 20px;
+    line-height: 145.9%;
+    font-weight: 500;
+    padding: 9px 0;
+  }
+  .obuna-title-div {
+    margin-bottom: 10px;
+  }
+  .obuna-secondPart-title {
+    font-size: 23px;
+    line-height: 145.9%;
+  }
+  .obuna-title-div p {
+    padding-top: 30px;
+    font-size: 16px;
+  }
+  .obuna-obunaOyi-title {
+    font-size: 22px;
+    line-height: 125.9%;
+    padding-bottom: 20px;
+  }
+}
+
+/* ------------------ mobile ---------------- */
+@media screen and (max-width: 440px) {
+  .obuna-full-container {
+    padding: 0 20px;
+  }
+  .obuna-secondPart-container {
+    background: #f8f8f8;
+    width: 100%;
+  }
+  .obuna-umumiy-hisob h1 {
+    font-size: 16px;
+    line-height: 105.9%;
+    font-weight: 700;
+    margin-right: 10px;
+  }
+  .obuna-umumiy-hisob h6 {
+    font-size: 16px;
+    line-height: 105.9%;
+    font-weight: 400;
+  }
+  .obuna-bottom-btn {
+    font-size: 15px;
+    line-height: 145.9%;
+    font-weight: 500;
+    padding: 2px 0;
+  }
+  .obuna-title-div {
+    margin-bottom: 10px;
+  }
+  .obuna-secondPart-title {
+    font-size: 20px;
+    line-height: 105.9%;
+  }
+  .obuna-title-div p {
+    padding-top: 20px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .obuna-obunaOyi-title {
+    font-size: 18px;
+    line-height: 105.9%;
+    padding-bottom: 10px;
+  }
+  .obuna-secondPart-wrapper {
+    padding: 25px 25px;
+  }
+  .obuna-input-form input {
+    font-size: 15px;
+    padding: 30px 0;
+    padding-bottom: 7px;
+    color: #222222;
+  }
+  .obuna-input-form input::placeholder {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 550;
+    /* font-size: 15px; */
+    color: #807c7c;
+  }
+  .obuna-obunaOyi-div {
+    margin-bottom: 17px;
+  }
+  .obuna-obunaOyi-title {
+    font-size: 17px;
+    line-height: 105.9%;
+    padding-bottom: 20px;
+    margin-top: -30px !important;
+  }
+  .obuna-backgroun-image {
+    height: 200px;
+  }
+  .obuna-backgroun-image div {
+    font-size: 25px;
+  }
+}

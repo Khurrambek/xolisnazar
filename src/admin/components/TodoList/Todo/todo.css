@@ -1,0 +1,55 @@
+.todo-list {
+    list-style: none;
+    padding: 10px 15px;
+    margin-bottom: 0;
+}
+
+.form-label {
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    opacity: .9;
+}
+
+.todo-item {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: solid 2px lightseagreen;
+    transition: all .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.completed {
+    border: #e22235 2px solid;
+    opacity: 0.3;
+}
+
+.todo-check-input {
+    position: relative;
+    visibility: hidden;
+    width: 20px;
+    height: 13px;
+    border-radius: 50%;
+    background: #000;
+
+}
+
+.todo-check-input::before {
+    content: '';
+    visibility: visible;
+    cursor: pointer;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    /* background: lightseagreen; */
+    /* top: -2px; */
+    border: 2px solid lightseagreen;
+    left: -2px;
+    transition: all .5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.todo-check-input:checked::before {
+    background: #e22235;
+    border: none;
+}

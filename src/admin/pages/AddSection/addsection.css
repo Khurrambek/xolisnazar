@@ -1,0 +1,44 @@
+.addsection-main {
+  background: #f9f9f9;
+}
+
+.navbar-secondary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.addsection-select {
+  width: 25% !important;
+}
+
+.create-news-section {
+  padding: 10px 20px;
+}
+
+.create-news-wrapper {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.form-group {
+  width: 100%;
+  padding: 15px 0;
+  background: none;
+}
+.form-label {
+  padding: 5px 0;
+}
+.ck.ck-reset_all input[type="password"],
+.ck.ck-reset_all input[type="text"],
+.ck.ck-reset_all textarea {
+  cursor: text;
+  color: black !important;
+}
+
+

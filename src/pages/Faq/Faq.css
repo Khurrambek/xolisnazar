@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.faq-full-container {
+  margin-top: 71px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.faq-wrapper {
+  width: 1800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq-backgroun-image {
+  background-image: url("../Magazines/assets/kop_soraladigan_savollar.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  color: #fff;
+  position: relative;
+}
+
+.faq-backgroun-image::before {
+  content: "";
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  position: absolute;
+}
+
+.faq-backgroun-image div {
+  font-family: "Irvin";
+  font-size: 70px;
+  color: #ffffff;
+  font-weight: 400;
+  position: relative;
+  letter-spacing: 0.03em;
+}
+
+.faq-text-wrapper {
+  margin: 105px 0 132px 0;
+  width: 1443px;
+}
+
+.faq-text-wrapper h4 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 41.89px;
+  padding-bottom: 30px;
+}
+
+.faq-text-wrapper p {
+  font-size: 22px;
+  font-family: "Raleway", serif;
+  font-weight: 500;
+  line-height: 28.8px;
+  padding-bottom: 60px;
+}
+
+.faq-p-1 {
+  padding-bottom: 40px !important;
+}
+
+@media screen and (max-width: 1920px) {
+  .faq-wrapper {
+    width: 100%;
+  }
+  .faq-full-container {
+    padding: 0 60px;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .faq-text-wrapper {
+    width: 100%;
+    padding: 0 60px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .faq-full-container {
+    margin-top: 51px;
+  }
+  .faq-text-wrapper {
+    margin: 70px 0 52px 0;
+  }
+  .faq-text-wrapper h4 {
+    font-size: 24px;
+    padding-bottom: 20px;
+  }
+  .faq-text-wrapper p {
+    font-size: 20px;
+    padding-bottom: 45px;
+  }
+  .faq-p-1 {
+    padding-bottom: 25px !important;
+  }
+  .faq-backgroun-image div {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .faq-full-container {
+    padding: 0 40px;
+    margin-top: 41px;
+  }
+  .faq-backgroun-image {
+    height: 100%;
+    padding: 200px 0;
+  }
+  .faq-text-wrapper {
+    padding: 0 45px;
+    margin: 50px 0 22px 0;
+  }
+  .faq-text-wrapper h4 {
+    font-size: 22px;
+    padding-bottom: 8px;
+  }
+  .faq-text-wrapper p {
+    font-size: 18px;
+    padding-bottom: 35px;
+  }
+  .faq-p-1 {
+    padding-bottom: 14px !important;
+  }
+  .faq-backgroun-image div {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .faq-full-container {
+    padding: 0 30px;
+    margin-top: 31px;
+  }
+  .faq-backgroun-image {
+    padding: 140px 0;
+  }
+  .faq-text-wrapper {
+    padding: 0 35px;
+    margin: 40px 0 20px 0;
+  }
+  .faq-text-wrapper h4 {
+    font-size: 19px;
+    padding-bottom: 4px;
+  }
+  .faq-text-wrapper p {
+    font-size: 16px;
+    padding-bottom: 25px;
+    line-height: 25px;
+  }
+  .faq-p-1 {
+    padding-bottom: 10px !important;
+  }
+  .faq-backgroun-image div {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .faq-backgroun-image {
+    padding: 100px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .faq-full-container {
+    padding: 0 20px;
+  }
+  .faq-backgroun-image {
+    padding: 70px 0;
+  }
+  .faq-text-wrapper {
+    padding: 0 25px;
+    margin: 20px 0 20px 0;
+  }
+  .faq-text-wrapper h4 {
+    font-size: 15px;
+    line-height: 22px;
+    padding-bottom: 8px;
+  }
+  .faq-text-wrapper p {
+    font-size: 12px;
+    padding-bottom: 20px;
+    line-height: 20px;
+  }
+  .faq-p-1 {
+    padding-bottom: 5px !important;
+  }
+  .faq-backgroun-image div {
+    font-size: 23px;
+  }
+}

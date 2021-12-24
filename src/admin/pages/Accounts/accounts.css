@@ -1,0 +1,171 @@
+.banner-section {
+    padding: 10px 20px;
+    height: 300px;
+}
+
+.banner-wrapper {
+    position: relative;
+    width: 100%;
+    /* max-height: 20%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+}
+
+.account-info {
+    position: relative;
+    top: 70px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.account-info img {
+    width: 166px;
+    height: 166px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center center;
+    padding-bottom: 5px;
+}
+
+.account-card-section {
+    padding: 10px 0;
+    padding-right: 20px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+/* .account-stats-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.account-stats {
+    /* padding: 0 10px; */
+    height: 100%;
+}
+
+.account-stats-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 5px 0;
+    margin: 0 15px;
+}
+
+.bg-orange {
+    background: #FFEDDC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFA94F;
+    font-size: 30px;
+}
+
+.account-stats-number {
+    padding: 10px 15px;
+}
+
+.account-stats-card {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background: #fff;
+    height: 250px;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.account-edit-wrapper {
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.account-edit-col {
+    padding: 0;
+}
+
+.account-edit-form {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.account-chart-select {
+    width: 35%;
+    float: right;
+    box-shadow: none;
+    outline: none;
+}
+
+.account-chart-section {
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.account-chart-wrapper {
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.top {
+    border-bottom: 1px solid #CECECE;
+    padding: 10px;
+}
+
+.progress {
+    height: 10px;
+}
+
+.new-user-form-group {
+    padding: 5px 0;
+}
+
+.account-new-user {
+    background: #fff;
+    padding: 10px;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 5px;
+}
+
+.account-new-user input {
+    border: 1px solid #ddd;
+}
+
+.change-difference {
+    color: #00BF0F;
+}
+
+.account-form-group {
+    position: relative;
+    padding: 6px 0;
+    width: 100% !important;
+}
+
+
+
+.account-form-control {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 5px 20px;
+    padding-right: 30px;
+}
+
+.account-control-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.account-form-control:focus-visible {
+    outline: 0;
+}
+
+.account-form-control:focus~.account-control-icon {
+    display: none;
+}

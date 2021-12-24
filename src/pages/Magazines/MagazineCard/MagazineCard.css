@@ -1,0 +1,410 @@
+.magazine-card-container {
+  /* width: 420px; */
+  width: 100%;
+  height: 100%;
+}
+.magazine-card-title {
+  font-family: "Irvin";
+  font-size: 24px;
+  font-weight: 400;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.magazine-card-image-wrap {
+  width: 300px;
+  height: 420px;
+}
+.magazine-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center center;
+}
+
+.magazine-card-button {
+  cursor: pointer;
+  background-color: #016d7b;
+  border: #016d7b;
+  width: 100%;
+  height: 69px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Irvin";
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 50px;
+}
+/* --------------------- */
+.obuna-turi-title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  color: #222222;
+}
+.obuna-input {
+  display: none;
+}
+.obuna-label {
+  font-size: 25px;
+  padding: 7px 15px;
+  margin-right: 30px;
+  font-weight: 700;
+}
+.obuna-input:checked + .obuna-label {
+  background-color: #2f9074;
+  border-radius: 5px;
+  border: 1px solid #2f9074;
+  color: #fff;
+}
+/*  -----------------------*/
+/* ---------------------- modal ---------------------- */
+.ReactModal__Overlay--after-open {
+  background-color: transparent !important;
+}
+.magazine-modal-container {
+  margin: auto;
+}
+.magazine-modal-content {
+  background: #035965;
+}
+.magazine-modal-wrapper {
+  padding: 0 40px 40px 40px;
+}
+.magazine-modal-titleDiv {
+  display: flex;
+  justify-content: center;
+}
+.magazine-modal-title {
+  color: #ffffff;
+  font-family: "Playfair Display SC";
+  font-weight: 600;
+  letter-spacing: 0.075em;
+  font-size: 30px;
+  text-align: center;
+}
+.magazine-modal-X {
+  cursor: pointer;
+  position: absolute;
+  right: 5%;
+  font-size: 35px;
+  color: #ffffff;
+}
+.magazine-modal-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.magazine-modal-form input {
+  font-family: Arial, Helvetica, sans-serif;
+  background: transparent;
+  border: 0;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ffffff;
+  outline: none;
+  color: rgb(182, 181, 181);
+  font-size: 22px;
+}
+.magazine-modal-form input::placeholder {
+  /* font-size: 22px; */
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 165.9%;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+.magazine-obunaTuri {
+  font-size: 22px;
+  font-family: Raleway;
+  font-weight: bold;
+  line-height: 165.9%;
+  color: #ffffff;
+  letter-spacing: 2px;
+  padding: 30px 0 15px 0;
+}
+.magazine-obunaTyapesDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.magazine-obunaTyapesDiv div {
+  background-color: #dcfbff;
+  font-family: Ralewey;
+  padding: 5px 15px;
+  font-size: 21px;
+  font-weight: 500;
+  border-radius: 2px;
+  color: #222222;
+}
+.magazine-paymentDiv {
+  display: flex;
+  margin-top: 30px;
+}
+.magazine-paymePart {
+  background-color: #016d7b;
+  width: 160px;
+  border-radius: 5px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.magazine-paymePart img {
+  width: 100px;
+}
+.magazine-clickPart {
+  background: #dcfbff;
+  width: 160px;
+  border-radius: 5px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.magazine-clickPart img {
+  width: 100px;
+}
+.magazine-bootom-btn {
+  width: 100%;
+  background: #2f9174;
+  border-radius: 5px;
+  border: 1px #2f9174;
+  height: 50px;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 25px;
+  color: #ffffff;
+  line-height: 165.9%;
+  margin-top: 60px;
+}
+.magazine-tolov-modal-wrap {
+  padding-top: 20px;
+}
+.magazine-tolov-modal-title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 24px;
+}
+.modal-magazine-form-payme {
+  padding-top: 10px;
+}
+.modal-magazine-label {
+  font-size: 25px;
+  padding: 7px 15px;
+  margin-right: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+.modal-magazine-input {
+  display: none;
+}
+.modal-magazine-input:checked + .modal-magazine-label {
+  background-color: #2f9074;
+  border-radius: 5px;
+  border: 1px solid #2f9074;
+  color: #fff;
+}
+/* ---------------------- modal ---------------------- */
+@media screen and (max-width: 1210px) {
+  .magazine-card-image-wrap {
+    width: 240px;
+    height: 336px;
+  }
+  .magazine-card-button {
+    height: 50px;
+    font-size: 15px;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 1030px) {
+  .magazine-card-image-wrap {
+    width: 300px;
+    height: 420px;
+  }
+  .magazine-card-button {
+    height: 50px;
+    font-size: 15px;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 815px) {
+  .magazine-card-image-wrap {
+    width: 220px;
+    height: 308px;
+  }
+  .magazine-card-button {
+    height: 50px;
+    font-size: 15px;
+    margin-top: 30px;
+  }
+  .magazine-card-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 17px;
+  }
+}
+@media screen and (max-width: 565px) {
+  .magazine-card-image-wrap {
+    width: 300px;
+    height: 420px;
+  }
+  .magazine-card-button {
+    height: 50px;
+    font-size: 15px;
+    margin-top: 30px;
+  }
+  .magazine-card-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 17px;
+  }
+}
+/* --------------------------- modal responsive start */
+@media screen and (max-width: 1600px) {
+  .magazine-modal-wrapper {
+    padding: 0 30px 20px 30px;
+  }
+  .magazine-modal-title {
+    font-size: 20px;
+  }
+  .magazine-modal-X {
+    font-size: 20px;
+  }
+
+  .magazine-modal-form input {
+    padding-top: 18px;
+    font-size: 16px;
+    padding-bottom: 3px;
+    border-bottom: 1.5px solid #ffffff;
+  }
+  .magazine-modal-form input::placeholder {
+    /* font-size: 16px; */
+    font-weight: 450;
+  }
+  .magazine-modal-content {
+    width: 600px;
+    margin: auto;
+  }
+  .magazine-obunaTuri {
+    font-size: 17px;
+    padding: 25px 0 10px 0;
+  }
+  .magazine-obunaTyapesDiv div {
+    padding: 5px 15px;
+    font-size: 16px;
+  }
+  /*  */
+  .magazine-paymentDiv {
+    margin-top: 20px;
+  }
+  .magazine-paymePart {
+    width: 120px;
+    height: 35px;
+    margin-right: 30px;
+  }
+  .magazine-paymePart img {
+    width: 70px;
+  }
+  .magazine-clickPart {
+    width: 120px;
+    height: 35px;
+  }
+  .magazine-clickPart img {
+    width: 70px;
+  }
+  .magazine-bootom-btn {
+    height: 35px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 30px;
+  }
+
+  .magazine-tolov-modal-title {
+    font-size: 18px;
+  }
+  .modal-magazine-label {
+    font-size: 19px;
+    padding: 2px 10px;
+    margin-right: 25px;
+  }
+}
+/* -------------------- ipad ------------------- */
+@media screen and (max-width: 1000px) {
+  .magazine-modal-wrapper {
+    padding: 0 20px 20px 20px;
+  }
+  .magazine-modal-title {
+    font-size: 19px;
+    word-wrap: break-word;
+  }
+
+  .magazine-modal-content {
+    width: 900px !important;
+    margin: auto;
+  }
+  .magazine-obunaTuri {
+    font-size: 16px;
+    padding: 25px 0 10px 0;
+  }
+  .magazine-obunaTyapesDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .magazine-obunaTyapesDiv div {
+    margin-bottom: 15px;
+    font-size: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  /*  */
+  .magazine-paymentDiv {
+    margin-top: 15px;
+  }
+  .magazine-bootom-btn {
+    height: 32;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 30px;
+  }
+}
+/* ---------------------- mobile ------------------- */
+@media screen and (max-width: 500px) {
+  .magazine-modal-content {
+    width: 95% !important;
+  }
+  .magazine-modal-wrapper {
+    padding: 0 10px 15px 10px;
+  }
+  .magazine-paymentDiv {
+    display: flex;
+    justify-content: space-between !important;
+  }
+  .magazine-clickPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+  }
+  .magazine-tolov-modal-title {
+    font-size: 17px;
+  }
+  .modal-magazine-label {
+    font-size: 17px;
+    padding: 2px 5px;
+    margin-right: 25px;
+  }
+}
+/* --------------------------- modal responsive end -------------*/

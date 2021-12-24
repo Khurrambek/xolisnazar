@@ -1,0 +1,62 @@
+/* @import "~font-awesome/css/font-awesome.min.css"; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: "Irvin";
+  position: relative;
+  overflow-x: hidden;
+}
+
+#popup-dynamic {
+  width: 0px;
+  background: transparent !important;
+}
+#popup-dynamic:hover {
+  transform: scale(1.1);
+  color: transparent !important;
+}
+
+.popupItem {
+  width: 100px !important;
+  font-size: 0;
+  border: 1px solid rgb(132, 0, 255);
+  background-image: url(./assets/playIconsm.png) !important;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  padding: 10px 20px !important;
+  cursor: pointer;
+  margin-right: 150px !important;
+  color: transparent;
+}
+.popupItem:hover {
+  color: transparent !important;
+}
+.popup::after {
+  content: "" !important;
+  border-width: 0 !important;
+}
+#tooltip {
+  box-sizing: border-box;
+  background-image: url(./assets/stopIconsm.png) !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgb(132, 0, 255);
+  background-size: cover;
+  background-position: center;
+  color: transparent;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+@media (max-width: 756px) {
+  .popupItem {
+    display: none;
+  }
+  #popup-dynamic {
+    display: none;
+  }
+}

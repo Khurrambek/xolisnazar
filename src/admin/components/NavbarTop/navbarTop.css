@@ -1,0 +1,43 @@
+.navbar-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+.calendar-img {
+    padding-bottom: 10px;
+}
+
+.nav-right-container {
+    display: flex;
+    align-items: center;
+    /* justify-content: center;  */
+
+}
+
+.item {
+    padding: 0 10px;
+    list-style: none;
+}
+
+.account-name h6 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.account-state {
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    text-align: left;
+}
+
+.account-wrapper {
+    display: flex;
+    align-items: center;
+}

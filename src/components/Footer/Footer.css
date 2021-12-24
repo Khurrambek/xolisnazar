@@ -1,0 +1,377 @@
+* {
+  font-family: "Irvin";
+  margin: 0;
+  padding: 0;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-container {
+  padding: 0 60px;
+  padding-bottom: 60px;
+  background-color: #007867;
+  color: #fff;
+}
+
+.footer-top {
+  text-align: center;
+  padding: 40px 0;
+  border-bottom: solid 2px #fff;
+}
+
+.footer-top h2 {
+  font-size: 45px;
+  color: #fff;
+  font-family: "Irvin";
+}
+
+.footer-second {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 70px 0;
+  border-bottom: solid 1px #fff;
+}
+
+.footer-second-1 p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  width: 300px;
+  line-height: 28px;
+}
+.footer-second-p-second::first-letter {
+  padding-left: 30px;
+}
+
+.footer-second-2 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-second-2 ul a li {
+  font-family: "Raleway", serif;
+  font-weight: 700;
+  padding-bottom: 7px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.footer-second-2 ul a li:hover {
+  color: #a09d9c;
+}
+
+.footer-second-3 {
+  width: 300px;
+}
+
+.footer-second-3 span,
+.footer-second-3 p {
+  font-weight: 700;
+  font-family: "Raleway", serif;
+}
+
+.footer-second-3 span {
+  line-height: 45px;
+}
+
+.footer-second-3 p:last-child {
+  line-height: 25px;
+}
+
+.footer-second-4 form {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+}
+
+.footer-second-4 form input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 20px;
+  padding: 5px 5px 10px 0;
+  outline: none;
+  font-family: "Raleway", serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  transition: all ease 0.2s;
+}
+
+.footer-second-4 a {
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 700;
+  color: #222222;
+}
+
+.footer-yuborish {
+  background: #eeeeee;
+  font-family: "Raleway", serif;
+  width: 127px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease 0.2s;
+}
+
+.footer-yuborish:hover {
+  background: #fff;
+  transition: all ease 0.2s;
+}
+
+.footer-third {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  border-bottom: 1px solid #fff;
+}
+
+.footer-third .footer-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-wrapper,
+.footer-second,
+.footer-third {
+  width: 100%;
+}
+
+.footer-third .footer-wrapper ul {
+  display: flex;
+  list-style: none;
+}
+
+.footer-third .footer-wrapper ul li {
+  margin-right: 40px;
+  font-family: "Raleway", serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.footer-third .footer-wrapper ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Raleway", serif;
+  font-weight: 700;
+  font-size: 20 px;
+  line-height: 26px;
+}
+
+.footer-bottom {
+  padding: 10px 0 20px 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.faq {
+  text-decoration: none;
+  color: #fff;
+}
+
+.faq:hover {
+  color: #eeeeee;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-second-wrapper-1 {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+.footer-second-wrapper-2 {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.footer-second-3 {
+  font-size: 20px;
+}
+
+.footer-yuborish-a {
+  text-decoration: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-family: "Raleway", serif;
+  font-weight: 600;
+}
+
+.footer-yuborish-a:hover {
+  background: #fff;
+  transition: all ease 0.2s;
+  color: #000;
+}
+
+.footer-phome-number {
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.footer-phome-number:hover {
+  color: #fff;
+}
+.first-phone-number-footer {
+  padding-right: 10px;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.poweredBy {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 1300px) {
+  .footer-wrapper {
+    justify-content: space-between;
+  }
+  .footer-second-wrapper-1,
+  .footer-second-wrapper-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+  }
+  .footer-second-1,
+  .footer-second-3 {
+    padding-bottom: 100px;
+  }
+  .footer-second-1 p,
+  .footer-second-2 ul {
+    line-height: 26px;
+  }
+  .footer-second {
+    border-bottom: solid 1px #fff;
+  }
+  .footer-third {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .footer-container {
+    padding: 0 30px;
+    padding-bottom: 60px;
+  }
+  .footer-second-4 form {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .footer-container {
+    padding: 0 20px;
+    padding-bottom: 60px;
+  }
+  .footer-wrapper {
+    flex-direction: column;
+  }
+  .footer-wrapper {
+    width: 100%;
+    /* align-items: center; */
+    text-align: center;
+  }
+  .footer-second-1 {
+    padding-bottom: 47px;
+  }
+  .footer-second-1 p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .footer-second-3 {
+    padding-top: 86px;
+    padding-bottom: 69px;
+  }
+  .footer-second-4 form,
+  .footer-second-4,
+  .footer-second-wrapper-2,
+  .footer-second-3,
+  .footer-yuborish {
+    width: 100%;
+  }
+  .footer-yuborish {
+    font-size: 18px;
+    line-height: 23.5px;
+  }
+  .footer-top {
+    padding: 40px 0 10px 0;
+  }
+  .footer-top img {
+    width: 250px;
+  }
+  .footer-top h2 {
+    font-size: 30px;
+  }
+  .footer-second-4 form input {
+    text-align: center;
+  }
+
+  .footer-wrapper ul {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .footer-third {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .footer-container {
+    padding: 0 15px;
+  }
+  .footer-container {
+    padding: 0 20px;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .footer-top {
+    padding: 40px 0 10px 0;
+  }
+  .footer-top img {
+    width: 180px;
+  }
+  .footer-top h2 {
+    font-size: 25px;
+  }
+  .home-catalog,
+  .home-kundalik-icons {
+    display: none;
+  }
+  .home-kundalik-icons {
+    padding: 10px 0 !important;
+  }
+  .home-kundalik-icons img {
+    display: none;
+  }
+  .footer-container {
+    padding: 0 20px;
+    padding-bottom: 60px;
+  }
+}

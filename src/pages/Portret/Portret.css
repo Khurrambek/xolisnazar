@@ -1,0 +1,178 @@
+.portret_container_background_image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.portret_description {
+  font-size: 22px;
+}
+
+.portret-padding {
+  padding-top: 40px;
+}
+
+.portret_category-heading {
+  margin-top: 50px;
+  border-bottom: 2px solid #dddddd;
+  width: 1800px;
+  padding-bottom: 40px;
+}
+
+.portret_background_image_section {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 90px 10%;
+  line-height: 40px;
+  text-align: center;
+  z-index: 8;
+  color: #ffffff;
+  position: relative;
+  /* background-image: url("../assets/backImage.jpg"); */
+}
+.portret_background_image_section::before {
+  content: "";
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+  position: absolute;
+}
+
+.portret_background_image_section p {
+  font-size: 30px;
+  z-index: 99;
+  position: relative;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: "Raleway";
+  text-align: center;
+  letter-spacing: 0.03em;
+  line-height: 45.6px;
+}
+
+.category_portret {
+  position: relative;
+  font-family: "Irvin";
+  font-size: 100px;
+  letter-spacing: 2px;
+  margin: 150px 50px;
+}
+.portret_big_title {
+  align-self: end;
+  padding-top: 10px;
+}
+
+.portret_link {
+  text-decoration: none;
+}
+
+.portret_title_unique {
+  padding-bottom: 20px !important;
+}
+
+.portret_card_unique h3 {
+  margin-top: 0;
+}
+@media screen and (max-width: 1600px) {
+  .portret_background_image_section p {
+    font-size: 25px;
+  }
+  .portret_title_unique {
+    padding-bottom: 0px !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .portret_background_image_section {
+    padding: 90px 5%;
+  }
+  .portret_background_image_section p {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    line-height: 38.6px;
+  }
+  .category_portret {
+    font-size: 70px;
+    letter-spacing: 2px;
+    margin: 100px 50px;
+  }
+
+  .portret_title_unique {
+    padding-bottom: 0px !important;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .portret_background_image_section {
+    padding: 90px 5%;
+  }
+  .portret_background_image_section p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    letter-spacing: 0.02em;
+    line-height: 30px;
+  }
+
+  .category_portret {
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin: 70px 50px;
+  }
+  .portret_category-heading {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .category_portret {
+    font-size: 50px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    margin: 50px 20px;
+  }
+  .portret_category-heading {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 514px) {
+  .portret_background_image_section {
+    padding: 50px 5%;
+  }
+  .portret_background_image_section p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    letter-spacing: 0.01em;
+    line-height: 25px;
+  }
+
+  .category_portret {
+    font-size: 40px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    margin: 50px 10px;
+  }
+  .portret_category-heading {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .category_portret {
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    margin: 20px 5px;
+  }
+  .portret_category-heading {
+    margin-top: 0px;
+  }
+}

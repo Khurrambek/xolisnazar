@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.RelatedNewsCardContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.RelatedNewsCardWrapper {
+  width: 1800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #c4c4c4;
+}
+.RelatedNewsCardDiv {
+  width: 85%;
+}
+.RelatedNewsCardContainerHeader {
+  text-transform: uppercase;
+  font-size: 34px;
+  margin: 40px 0;
+  padding-bottom: 30px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+.categoryCardBtn {
+  background: #035965;
+  border: 1px solid #035965;
+  padding: 18px 108px;
+  color: #fff;
+  font-size: 26px;
+  font-family: "Raleway";
+  letter-spacing: 1px;
+  font-weight: 500;
+  line-height: 31.46px;
+  border-radius: 3px;
+}
+.categoryCardBtn:hover {
+  background: #0d7785;
+  border: 1px solid #0d7785;
+  padding: 18px 108px;
+  color: #fff;
+  font-size: 26px;
+}
+.categoryCardBtnDiv {
+  display: flex;
+  justify-content: center;
+  margin: 60px 0;
+}
+
+/* ------------------------------------------ */
+@media screen and (max-width: 1800px) {
+  .categoryCardBtn {
+    background: #035965;
+    border: 1px solid #035965;
+    padding: 15px 90px;
+    color: #fff;
+    font-size: 24px;
+    font-family: "Raleway";
+    letter-spacing: 1px;
+    font-weight: 500;
+    line-height: 31.46px;
+  }
+  .categoryCardBtn:hover {
+    padding: 15px 90px;
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 1550px) {
+  .categoryCardBtnDiv {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .RelatedNewsCardContainerHeader {
+    font-size: 25px;
+    margin: 40px 0;
+    padding-bottom: 30px;
+    font-weight: 500;
+    transition: all 0.2s;
+  }
+  .categoryCardBtn {
+    background: #035965;
+    border: 1px solid #035965;
+    padding: 3px 60px;
+    color: #fff;
+    font-size: 12px;
+    font-family: "Raleway";
+    letter-spacing: 1px;
+    font-weight: 500;
+    line-height: 31.46px;
+  }
+  .categoryCardBtn:hover {
+    padding: 3px 60px;
+    font-size: 12px;
+  }
+  .categoryCardBtnDiv {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .RelatedNewsCardDiv {
+    width: 100%;
+  }
+  .RelatedNewsCardContainerHeader {
+    font-size: 23px;
+    margin: 35px 0;
+    padding-bottom: 25px;
+    font-weight: 500;
+    transition: all 0.2s;
+  }
+  .categoryCardBtn {
+    background: #035965;
+    border: 1px solid #035965;
+    padding: 1px 50px;
+    color: #fff;
+    font-size: 11px;
+    font-family: "Raleway";
+    letter-spacing: 1px;
+    font-weight: 500;
+    line-height: 31.46px;
+  }
+  .categoryCardBtnDiv {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .RelatedNewsCardDiv {
+    width: 100%;
+    padding: 0px;
+  }
+}

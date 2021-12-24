@@ -1,0 +1,147 @@
+.CategoryFourthCardContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.CategoryFourtCardWrapper {
+  width: 1800px;
+}
+.categoryFourthCardWrap {
+  display: flex;
+  width: 100%;
+}
+
+.category-card-block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.category-card-borderBlock:first-child,
+.category-card-borderBlock:nth-child(4) {
+  padding-left: 0px;
+}
+.category-card-borderBlock {
+  width: 33%;
+  height: auto;
+  padding: 0 40px;
+  border-right: 1px solid #c4c4c4;
+  margin-bottom: 70px;
+}
+.categoryDefaultImgWrap {
+  width: 20%;
+}
+.categoryImgDiv {
+  height: 750px;
+}
+.categoryDefaultImg {
+  width: 100%;
+  height: 100%;
+  padding-left: 30px;
+  object-fit: cover;
+  object-position: center center;
+}
+.categoryCardFirstTitle {
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
+  font-family: "Irvin";
+  font-weight: 400;
+  font-size: 36px;
+  margin: 70px 0;
+  line-height: 38.72px;
+  color: #000000;
+}
+
+@media screen and (max-width: 1560px) {
+  .categoryCardFirstTitle {
+    font-size: 30px;
+    margin: 40px 0;
+    line-height: 38.72px;
+  }
+  .CategoryFourthCardContainer {
+    padding-bottom: 10px;
+  }
+  .category-card-borderBlock {
+    padding: 0 25px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .categoryDefaultImgWrap {
+    display: none;
+  }
+  .category-card-block {
+    width: 100%;
+  }
+  .category-card-borderBlock {
+    width: 50%;
+    padding: 0 20px;
+  }
+  .category-card-borderBlock:nth-child(4) {
+    padding-right: 0px;
+    padding-left: 20px;
+  }
+  .category-card-borderBlock:nth-child(even) {
+    border-right: none;
+    padding-right: 0px;
+    padding-left: 20px;
+  }
+  .category-card-borderBlock:nth-child(odd) {
+    padding-left: 0px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .CategoryFourtCardWrapper {
+    width: 100% !important;
+  }
+  .CategoryFourthCardContainer {
+    padding-bottom: 10px;
+  }
+  .categoryCardFirstTitle {
+    font-size: 25px;
+    margin: 20px 0;
+  }
+  .categoryCardFirstTitle div {
+    font-size: 25px;
+    margin: 0px 0;
+    line-height: 38.72px;
+  }
+  .category-card-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .category-card-emptyy {
+    display: none;
+  }
+  .category-card-borderBlock:nth-child(even) {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 40px;
+  }
+  .category-card-borderBlock:nth-child(odd) {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 20px;
+  }
+  .category-card-borderBlock {
+    width: 100%;
+    padding: 0 40px;
+    border: none;
+  }
+
+  .categoryDefaultImg {
+    width: 100%;
+    height: 50%;
+  }
+  .category-card-borderless {
+    border: none;
+  }
+}

@@ -1,0 +1,91 @@
+.login {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.login-heading {
+  padding: 20px 10px;
+  text-transform: uppercase;
+}
+
+.login-form-label,
+.login-form-text {
+  font-family: sans-serif;
+}
+
+.login-form {
+  font-family: Arial, Helvetica, sans-serif !important;
+  width: 40%;
+  padding: 3rem 2rem;
+  background: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.form-password {
+  position: relative !important;
+  top: 0;
+  left: 0;
+}
+
+.login-icons {
+  position: absolute;
+  right: 8%;
+  top: 55%;
+  font-size: 22px;
+}
+
+.icon {
+  position: absolute;
+  cursor: pointer;
+}
+
+.active-hidden {
+  visibility: hidden;
+}
+
+.active-show {
+  visibility: visible;
+}
+
+.login-form-group {
+  padding: 10px 0;
+  width: 100%;
+}
+
+.login-form-control {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+  margin: 5px 0;
+  display: block;
+  width: 100%;
+  border: #d4d4d4 1px solid;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 2px;
+}
+
+.login-form-control::placeholder {
+  text-transform: capitalize;
+}
+
+.submitBtn {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  display: block;
+  background: #2e2e2e;
+  color: #fff;
+  width: 100%;
+  border-radius: 0;
+  padding: 10px 0;
+}
+
+.submitBtn:hover {
+  color: #fff;
+}
+
+.text-muted {
+  font-size: 14px;
+}

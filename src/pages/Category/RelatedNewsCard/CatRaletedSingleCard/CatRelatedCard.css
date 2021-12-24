@@ -1,0 +1,307 @@
+.categorySecondCardContainer {
+  display: flex;
+  height: 350px;
+  width: 100%;
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+.categorySecondCardContainer:hover .category-second-card-titles h2 {
+  color: #05af7e;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+.category-secondCard-img-Div {
+  width: 35%;
+}
+.category-secondCard-img {
+  width: 100%;
+  /* height: 200px; */
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.category-second-card-titles {
+  margin-left: 50px;
+  width: 65%;
+  height: 100px;
+  text-decoration: none !important;
+  word-wrap: break-word;
+}
+
+.category-second-card-titles h2 {
+  font-family: "Irvin";
+  text-transform: uppercase;
+  font-weight: 520;
+  font-size: 30px;
+  line-height: 37.05px;
+  letter-spacing: 2px;
+  padding-bottom: 25px;
+  margin: 0;
+  color: #000000;
+  transition: 0.3s;
+}
+
+.category-second-card-titles h3 {
+  font-family: "Raleway";
+  margin-top: 25px;
+  line-height: 23px;
+  font-size: 22px;
+  line-height: 26.62px;
+  font-weight: 400;
+  color: #000000;
+  margin: 0;
+}
+
+.category-second-card-titles h5 {
+  margin-top: 44px;
+  font-size: 18px;
+  font-family: "Raleway";
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+/* ------------------- aaaaaaaaaaaa ------------ */
+@media screen and (max-width: 1800px) {
+  .category-second-card-titles h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+
+  .category-second-card-titles h3 {
+    margin-top: 20px;
+    line-height: 23px;
+    font-size: 22px;
+    width: 70%;
+  }
+
+  .category-second-card-titles h5 {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+  }
+}
+@media screen and (max-width: 1730px) {
+  .category-second-card-titles h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+    padding-bottom: 15px;
+    width: 100%;
+    font-weight: 520;
+  }
+
+  .category-second-card-titles h3 {
+    margin-top: 17px;
+    line-height: 23px;
+    font-size: 21px;
+    width: 100%;
+  }
+
+  .category-second-card-titles h5 {
+    margin-top: 35px;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+  }
+  .categorySecondCardContainer {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 1486px) {
+  .category-second-card-titles h2 {
+    font-size: 24px;
+    letter-spacing: 1px;
+    padding-bottom: 0px;
+    margin: 0;
+    width: 100%;
+    line-height: 33.05px;
+    font-weight: 520;
+  }
+
+  .category-second-card-titles h3 {
+    margin-top: 10px;
+    line-height: 23px;
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .category-second-card-titles h5 {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+  }
+  .category-second-card-titles {
+    margin-left: 40px;
+    width: 70%;
+  }
+  .categorySecondCardContainer {
+    display: flex;
+    height: 250px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .category-second-card-titles h2 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-bottom: 0px;
+    margin: 0;
+    width: 100%;
+    line-height: 27.05px;
+  }
+
+  .category-second-card-titles h3 {
+    margin-top: 10px;
+    line-height: 22px;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .category-second-card-titles h5 {
+    margin-top: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+  }
+  .category-second-card-titles {
+    margin-left: 40px;
+    width: 65%;
+  }
+  .categorySecondCardContainer {
+    display: flex;
+    height: 220px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .category-second-card-titles h2 {
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding-bottom: 0px;
+    margin: 0;
+    width: 100%;
+    line-height: 25.05px;
+  }
+
+  .category-second-card-titles h3 {
+    margin-top: 8px;
+    line-height: 20px;
+    font-size: 13px;
+    width: 100%;
+  }
+
+  .category-second-card-titles h5 {
+    margin-top: 15px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+  }
+  .category-second-card-titles {
+    margin-left: 40px;
+    width: 70%;
+  }
+  .category-secondCard-img-Div {
+    width: 50%;
+  }
+  .category-secondCard-img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .category-second-card-titles h2 {
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding-bottom: 0px;
+    margin: 0;
+    width: 100%;
+    line-height: 22.05px;
+  }
+
+  .category-second-card-titles h3 {
+    margin-top: 8px;
+    line-height: 20px;
+    font-size: 13px;
+    width: 100%;
+  }
+
+  .category-second-card-titles h5 {
+    margin-top: 15px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+  }
+  .category-second-card-titles {
+    margin-left: 40px;
+    width: 70%;
+  }
+  .category-secondCard-img-Div {
+    width: 50%;
+  }
+  .category-secondCard-img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .category-second-card-titles h2 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-bottom: 0px;
+    margin: 0;
+    width: 100%;
+    line-height: 20.05px;
+  }
+
+  .category-second-card-titles h3 {
+    margin-top: 8px;
+    line-height: 18px;
+    font-size: 13px;
+    width: 90%;
+  }
+}
+
+/* ------------------------- mobile -------------------- */
+@media screen and (max-width: 600px) {
+  .categorySecondCardContainer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .category-secondCard-img-Div {
+    width: 100%;
+    height: 250px;
+  }
+  .category-second-card-titles {
+    width: 100%;
+    height: max-content;
+    margin-left: 0px;
+  }
+  .category-second-card-titles h2 {
+    width: 100%;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 10px 0;
+  }
+  .category-second-card-titles h3 {
+    width: 100%;
+    font-size: 17px;
+  }
+  .category-second-card-titles h5 {
+    font-size: 15px;
+  }
+}

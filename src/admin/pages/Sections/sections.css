@@ -1,0 +1,16 @@
+.sections-main {
+  background: #f9f9f9;
+}
+
+.navigation-wrapper {
+  background: #fff;
+}
+
+.cards-wrapper {
+  margin-left: 15px;
+}
+
+.title-input {
+  padding: 60px 15px !important;
+  white-space: wrap !important;
+}

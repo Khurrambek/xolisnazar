@@ -1,0 +1,253 @@
+.search-full-container {
+  width: 100%;
+  min-height: 900px;
+  padding: 30px 0;
+}
+
+.search-wrapper {
+  padding: 0 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search_page_input {
+  width: 100%;
+  height: 100%;
+  padding-left: 5px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-family: "Raleway", serif;
+  color: rgba(0, 0, 0, 0.734);
+  font-size: 22px;
+}
+.search_page_input::placeholder {
+  color: #999;
+  font-size: 20px;
+}
+.search_page_search_wrapper {
+  align-items: center;
+  display: flex;
+  width: 500px;
+  height: 45px;
+  border: 1px solid #99999990;
+  border-radius: 25px;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+
+.search_page_icon {
+  width: 28px;
+  height: 28px;
+  color: #888;
+}
+
+.search_background {
+  width: 30%;
+  margin: 100px 0 350px 0;
+  height: auto;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.search_result_container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.notfound {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.search_result_item {
+  width: 90%;
+  padding: 40px 0;
+}
+
+.search_result_item {
+  display: flex;
+  height: 350px;
+  text-decoration: none;
+}
+
+.search_page_img_wrapper {
+  width: 30%;
+  height: 100%;
+}
+
+.search_page_card_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.search_text_wrapper {
+  width: 65%;
+  padding-left: 40px;
+}
+
+.search_text_title {
+  font-size: 34px;
+  font-family: "Irvin";
+  color: #000;
+}
+
+.search_text_subTitle {
+  font-size: 22px;
+  font-family: "Raleway", serif;
+  padding-top: 10px;
+  color: #000;
+  padding-bottom: 20px;
+}
+
+.search_text_author {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #000;
+  font-family: "Raleway", serif;
+}
+
+@media (max-width: 1400px) {
+  .search_page_img_wrapper {
+    width: 300px;
+    height: 100%;
+  }
+  .search_text_wrapper {
+    width: calc(100% - 300px);
+  }
+  .search_result_item {
+    height: 300px;
+    width: 100%;
+  }
+
+  .search_text_title {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  .search_text_subTitle {
+    font-size: 18px;
+    padding-bottom: 15px;
+  }
+
+  .search_text_author {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .search_text_title {
+    font-size: 25px;
+    line-height: 28px;
+  }
+
+  .search_text_subTitle {
+    font-size: 17px;
+    padding-bottom: 0px;
+  }
+
+  .search_text_author {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 800px) {
+  .search-wrapper {
+    padding: 0 30px;
+  }
+  .search_background {
+    width: 50%;
+    margin: 100px 0 350px 0;
+    height: auto;
+  }
+  .search_result_item {
+    height: unset;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .search_page_search_wrapper {
+    width: 400px;
+    height: 45px;
+    border-radius: 25px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+  }
+  .search_result_item {
+    margin-bottom: 20px;
+  }
+  .search_page_img_wrapper {
+    height: 220px;
+  }
+}
+@media (max-width: 560px) {
+  .search_result_item {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .search_page_img_wrapper {
+    width: 100%;
+    height: 100%;
+  }
+  .search_text_wrapper {
+    width: 100%;
+    padding: 20px 0 0;
+  }
+  .search-wrapper {
+    padding: 0 20px;
+  }
+  .search_background {
+    margin: 100px 0 250px 0;
+  }
+  .search_page_search_wrapper {
+    width: 350px;
+    height: 38px;
+  }
+  .search_page_icon {
+    width: 24px;
+    height: 24px;
+  }
+  .search_page_input {
+    padding-left: 5px;
+    border-radius: 20px;
+    font-size: 18px;
+  }
+  .search_page_input::placeholder {
+    font-size: 18px;
+  }
+}
+@media (max-width: 425px) {
+  .search-wrapper {
+    padding: 0 15px;
+  }
+
+  .search_background {
+    margin: 50px 0 200px 0;
+  }
+  .search_page_search_wrapper {
+    width: 95%;
+    height: 34px;
+  }
+  .search_page_icon {
+    width: 22px;
+    height: 22px;
+  }
+  .search_page_input {
+    font-size: 16px;
+  }
+  .search_page_input::placeholder {
+    font-size: 16px;
+  }
+  .nav-bottom-right_empty {
+    width: 0;
+  }
+}

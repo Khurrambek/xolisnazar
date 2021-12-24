@@ -1,0 +1,317 @@
+.blog-text-container {
+  width: 1800px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 80px;
+  position: relative;
+  border-bottom: 1px solid #a09d9c;
+}
+
+/* Youtube media video */
+.blog-half-text .media div div {
+  position: static !important;
+  height: 500px !important;
+  padding-bottom: 0% !important;
+  padding-bottom: 0px !important;
+}
+.blog-half-text .media div div iframe {
+  position: static !important;
+}
+
+/* .......................... */
+.blog-half-text:first-letter {
+  font-size: 250px;
+  float: left;
+  font-family: "Raleway", serif;
+  line-height: 200px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
+.blog-firstText {
+  display: flex;
+  width: 60%;
+  font-size: 24px;
+  font-family: "Raleway", serif !important;
+  text-align: justify;
+  padding-bottom: 45px;
+}
+.blog-firstText h1 {
+  padding-right: 40px;
+  margin: 0;
+  color: #000000;
+  font-size: 230px;
+  font-weight: 700;
+}
+
+.blog-half-text {
+  font-size: 24px;
+  line-height: 40px;
+  font-family: "Raleway", serif;
+  font-weight: 500;
+  text-align: justify;
+  letter-spacing: 0.01rem;
+  width: 100%;
+}
+
+.blog-half-text img,
+.blog-half-text iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.blog-second-text {
+  width: 60%;
+  margin-top: -25px;
+  letter-spacing: 0.01rem;
+  font-size: 24px;
+  line-height: 42px;
+  font-family: "Raleway";
+  text-align: justify;
+  font-weight: 600;
+  color: #000000;
+  padding-bottom: 70px;
+}
+
+.blog-third-text {
+  width: 60%;
+  letter-spacing: 0.01rem;
+  font-size: 24px;
+  line-height: 42px;
+  font-family: "Raleway", serif;
+  text-align: justify;
+  font-weight: 500;
+  color: #000000;
+  padding-bottom: 45px;
+}
+.blog-fourth-text {
+  width: 60%;
+  letter-spacing: 0.01rem;
+  font-size: 24px;
+  line-height: 42px;
+  font-family: "Raleway";
+  text-align: justify;
+  font-weight: 500;
+  color: #000000;
+  padding: 45px 0 67px 0;
+  border-bottom: 1px solid #a09d9c;
+}
+.blog-inner-imgDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  object-fit: cover;
+}
+.blog-inner-img1 {
+  overflow: hidden;
+  width: auto;
+  padding-bottom: 70px;
+}
+.blog-inner-img2 {
+  overflow: hidden;
+  width: auto;
+}
+
+.blog-bottom-icons {
+  padding: 40px 0px;
+  width: 60%;
+}
+.blog-bottom-icons-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.blog-top-icons {
+  left: 0;
+  position: absolute;
+}
+.blog-top-icons-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.blog-bottom-telegramIcon {
+  display: flex;
+  flex-direction: row;
+}
+.blog-top-telegramIcon,
+.blog-top-facebookIcon,
+.blog-top-shareIcon,
+.blog-bottom-telegramIcon,
+.blog-bottom-facebookIcon,
+.blog-bottom-shareIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50%;
+  font-size: 25px;
+  margin-right: 20px;
+}
+.blog-top-shareIcon,
+.blog-bottom-shareIcon {
+  transform: rotate(-20deg);
+}
+.blog-top-telegramIcon:hover,
+.blog-bottom-telegramIcon:hover {
+  background: #00d1ee;
+}
+.blog-top-facebookIcon:hover,
+.blog-bottom-facebookIcon:hover {
+  background: #005bae;
+}
+.blog-top-shareIcon:hover,
+.blog-bottom-shareIcon:hover {
+  background: #7553f0;
+}
+.blog-top-icons-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway", serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 27px;
+}
+.blog-view-icon {
+  margin: 0 5px 0 5px;
+  font-size: 15px;
+}
+/* ------------------- top icons ------------------------- */
+
+@media screen and (max-width: 1850px) {
+  .blog-text-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .blog-firstText,
+  .blog-third-text,
+  .blog-fourth-text {
+    width: 70%;
+  }
+  .blog-bottom-icons {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .blog-firstText {
+    padding-top: 100px;
+  }
+  .blog-top-icons {
+    margin-top: -45px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .blog-firstText,
+  .blog-third-text,
+  .blog-fourth-text {
+    width: 85%;
+  }
+  .blog-half-text,
+  .blog-third-text,
+  .blog-fourth-text {
+    font-size: 22px;
+  }
+  .blog-half-text:first-letter {
+    font-size: 230px;
+  }
+  .blog-top-telegramIcon,
+  .blog-top-facebookIcon,
+  .blog-top-shareIcon,
+  .blog-bottom-telegramIcon,
+  .blog-bottom-facebookIcon,
+  .blog-bottom-shareIcon {
+    width: 35px;
+    height: 35px;
+    font-size: 22px;
+    margin-right: 18px;
+  }
+  .blog-bottom-icons {
+    width: 85%;
+  }
+  .media div div {
+    height: 350px !important;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .blog-firstText,
+  .blog-third-text,
+  .blog-fourth-text {
+    width: 100%;
+    padding: 0 24px;
+  }
+  .blog-half-text,
+  .blog-third-text,
+  .blog-fourth-text {
+    font-size: 16px;
+    line-height: 27px;
+  }
+  .blog-half-text:first-letter {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+  }
+  .blog-top-icons {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .blog-top-telegramIcon,
+  .blog-top-facebookIcon,
+  .blog-top-shareIcon,
+  .blog-bottom-telegramIcon,
+  .blog-bottom-facebookIcon,
+  .blog-bottom-shareIcon {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    margin-right: 16px;
+  }
+  .blog-bottom-icons {
+    width: 100%;
+    display: block;
+    padding: 0;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .blog-firstText {
+    padding-top: 54px;
+    padding-bottom: 17px;
+  }
+  .blog-inner-img1 {
+    padding-bottom: 17px;
+    width: 100%;
+  }
+  .blog-image-container {
+    padding: 0 0px;
+  }
+  .blog-inner-imgDiv {
+    padding: 17px 0;
+  }
+  .blog-firstText,
+  .blog-inner-img1 {
+    padding-bottom: 0;
+  }
+  .blog-fourth-text {
+    padding-bottom: 45px;
+    border: none;
+  }
+  .blog-bottom-icons-wrapper {
+    margin: 0 24px;
+    display: flex;
+    padding: 35px 0;
+    justify-content: center;
+    border-top: solid 1px #a09d9c;
+    border-bottom: solid 1px #a09d9c;
+  }
+  .media div div {
+    height: 300px !important;
+  }
+}

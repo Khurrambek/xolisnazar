@@ -1,0 +1,27 @@
+.container-fluit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 1920px) {
+  .container-fluit {
+    padding: 0 60px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .container-fluit {
+    padding: 0 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container-fluit {
+    padding: 0 30px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .container-fluit {
+    padding: 20px;
+  }
+}
